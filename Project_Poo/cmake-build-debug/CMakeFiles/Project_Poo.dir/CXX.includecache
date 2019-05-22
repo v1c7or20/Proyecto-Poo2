@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Usuario/Documents/c++/Project_Poo/ficha.cpp
+ficha.h
+C:/Users/Usuario/Documents/c++/Project_Poo/ficha.h
+
+C:/Users/Usuario/Documents/c++/Project_Poo/ficha.h
+
+C:/Users/Usuario/Documents/c++/Project_Poo/main.cpp
+iostream
+-
+
