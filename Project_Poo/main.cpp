@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ficha.h"
+#include "ficha.cpp"
 
 
 int main() {
