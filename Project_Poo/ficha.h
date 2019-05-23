@@ -2,6 +2,7 @@
 // Created by Usuario on 22/05/2019.
 //
 
+#include<stdlib.h>
 #ifndef PROJECT_POO_FICHA_H
 #define PROJECT_POO_FICHA_H
 
@@ -13,10 +14,13 @@ protected:
     const unsigned int pos_final;
     bool jugable= true;
 public:
-    ficha(unsigned int posIni, unsigned int posAct, unsigned int posFinal, bool jugable);
+    ficha(unsigned int posIni, unsigned int posAct, unsigned int posFinal);
     void moverse();
     void esjugable();
     bool comprueba();
+    int getpos_ini();
+    int getpos_act();
+    int getpos_();
 
 };
 

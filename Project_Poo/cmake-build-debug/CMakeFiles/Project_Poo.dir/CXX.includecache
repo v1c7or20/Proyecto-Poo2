@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Usuario/Documents/c++/Project_Poo/ficha.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
 ficha.h
-C:/Users/Usuario/Documents/c++/Project_Poo/ficha.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
 
-C:/Users/Usuario/Documents/c++/Project_Poo/ficha.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+stdlib.h
+-
 
-C:/Users/Usuario/Documents/c++/Project_Poo/main.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
 iostream
 -
+ficha.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
 

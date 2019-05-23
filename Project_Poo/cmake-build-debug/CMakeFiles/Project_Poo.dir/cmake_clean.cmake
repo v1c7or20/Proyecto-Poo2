@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "Project_Poo.pdb"
   "Project_Poo.exe"
   "Project_Poo.exe.manifest"
-  "Project_Poo.lib"
+  "libProject_Poo.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
