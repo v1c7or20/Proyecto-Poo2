@@ -11,12 +11,13 @@ protected:
     const unsigned int pos_ini;
     unsigned int pos_act;
     const unsigned int pos_final;
-    bool jugable;
+    bool jugable= true;
 public:
     ficha(unsigned int posIni, unsigned int posAct, unsigned int posFinal, bool jugable);
     void moverse();
     void esjugable();
-    
+    bool comprueba();
+
 };
 
 
