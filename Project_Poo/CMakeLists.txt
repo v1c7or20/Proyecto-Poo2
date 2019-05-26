@@ -3,4 +3,4 @@ project(Project_Poo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Project_Poo main.cpp ficha.cpp ficha.h)
+add_executable(Project_Poo main.cpp )
