@@ -22,4 +22,32 @@ public:
     void mostrar() override;
 };
 
+class casillacasa: public casilla{
+public:
+    casillacasa(int x, int y, bool disponible, char color);
+
+    void mostrar() override;
+};
+
+class casillarecorrido: public casilla{
+public:
+    casillarecorrido(int x, int y, bool disponible, char color);
+
+    void mostrar() override;
+};
+
+class casilladestino: public casilla{
+public:
+    casilladestino(int x, int y, bool disponible, char color);
+
+    void mostrar() override;
+};
+
+class casillazonasegura: public casilla{
+public:
+    casillazonasegura(int x, int y, bool disponible, char color);
+
+    void mostrar() override;
+};
+
 #endif //PROJECT_POO_CASILLA_H

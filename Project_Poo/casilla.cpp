@@ -20,3 +20,30 @@ void casillainicio::mostrar() {
     cout<<disponible<<endl;
     cout<<color<<endl;
 }
+
+casillacasa::casillacasa(int x, int y, bool disponible, char color)
+: casilla(x, y, disponible, color) {}
+
+void casillacasa::mostrar() {
+
+}
+
+casillarecorrido::casillarecorrido(int x, int y, bool disponible, char color)
+: casilla(x, y, disponible, color) {}
+
+void casillarecorrido::mostrar() {
+
+}
+
+casilladestino::casilladestino(int x, int y, bool disponible, char color) : casilla(x, y, disponible, color) {}
+
+void casilladestino::mostrar() {
+
+}
+
+casillazonasegura::casillazonasegura(int x, int y, bool disponible, char color)
+: casilla(x, y, disponible, color) {}
+
+void casillazonasegura::mostrar() {
+
+}
