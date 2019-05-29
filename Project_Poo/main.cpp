@@ -1,9 +1,8 @@
-#include <iostream>
+#include "casilla.cpp"
 #include "ficha.cpp"
 
-
 int main() {
-    ficha *f1=new ficha(0, 0, 61);
-    std::cout << "Hello, World!" << std::endl;
+    casilla *c1= new casillainicio (1, 1, false,'r');
+    c1->mostrar();
     return 0;
 }
