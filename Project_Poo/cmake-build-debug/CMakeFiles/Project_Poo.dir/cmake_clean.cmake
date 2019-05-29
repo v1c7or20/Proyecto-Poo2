@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Project_Poo.dir/main.cpp.obj"
-  "CMakeFiles/Project_Poo.dir/Tablero.cpp.obj"
   "Project_Poo.pdb"
   "Project_Poo.exe"
   "Project_Poo.exe.manifest"

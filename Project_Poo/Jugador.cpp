@@ -8,6 +8,6 @@ Jugador::Jugador(string NombreJugador, TipoDato color) {
     this->color=color;
 }
 void Jugador::jugar(ficha* ficha, int movimiento) {
-    
+
 }
 void Jugador::seleccionarFichaEnJuego() {}

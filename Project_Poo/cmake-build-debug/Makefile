@@ -38,33 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-<<<<<<< Updated upstream
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe"
-
-# The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f
-=======
 CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
 RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f
->>>>>>> Stashed changes
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< Updated upstream
-CMAKE_SOURCE_DIR = C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug
-=======
 CMAKE_SOURCE_DIR = "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug"
->>>>>>> Stashed changes
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,11 +58,7 @@ CMAKE_BINARY_DIR = "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-<<<<<<< Updated upstream
-	"C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-=======
 	"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
->>>>>>> Stashed changes
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,11 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-<<<<<<< Updated upstream
-	"C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-=======
 	"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
->>>>>>> Stashed changes
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -101,15 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< Updated upstream
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles\progress.marks
-	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles 0
-=======
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles" "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles" 0
->>>>>>> Stashed changes
 .PHONY : all
 
 # The main clean target
@@ -150,33 +122,6 @@ Project_Poo/fast:
 	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/build
 .PHONY : Project_Poo/fast
 
-Tablero.obj: Tablero.cpp.obj
-
-.PHONY : Tablero.obj
-
-# target to build an object file
-Tablero.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.obj
-.PHONY : Tablero.cpp.obj
-
-Tablero.i: Tablero.cpp.i
-
-.PHONY : Tablero.i
-
-# target to preprocess a source file
-Tablero.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.i
-.PHONY : Tablero.cpp.i
-
-Tablero.s: Tablero.cpp.s
-
-.PHONY : Tablero.s
-
-# target to generate assembly for a file
-Tablero.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.s
-.PHONY : Tablero.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -213,9 +158,6 @@ help:
 	@echo ... Project_Poo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Tablero.obj
-	@echo ... Tablero.i
-	@echo ... Tablero.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
