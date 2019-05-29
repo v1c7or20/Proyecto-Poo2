@@ -33,40 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c564974-9223-44a1-93b8-0dfd5a14fd5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/casilla.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/casillainicio.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/ficha.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/Project_Poo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/Project_Poo.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-    </list>
+    <list default="true" id="1c564974-9223-44a1-93b8-0dfd5a14fd5e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/Project_Poo/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,13 +128,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Project_Poo/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -203,28 +170,29 @@
       <workItem from="1558643524787" duration="1016000" />
       <workItem from="1559087587476" duration="12000" />
       <workItem from="1559097297447" duration="4000" />
+      <workItem from="1559097662899" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1032000" />
+    <option name="totallyTimeSpent" value="1067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />

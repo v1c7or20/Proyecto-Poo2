@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+iostream
+-
+casilla.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
+
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
+
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
+ficha.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+stdlib.h
+-
+
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
+casilla.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+ficha.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
+
