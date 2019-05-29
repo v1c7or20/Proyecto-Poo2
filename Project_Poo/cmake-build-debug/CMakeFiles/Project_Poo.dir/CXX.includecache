@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
 iostream
 -
 casilla.h
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
 ficha.h
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
 stdlib.h
 -
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
 casilla.cpp
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
 ficha.cpp
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
 
