@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.cpp">
+			<Option target="Project_Poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.h">
+			<Option target="Project_Poo"/>
+		</Unit>
 		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp">
 			<Option target="Project_Poo"/>
 		</Unit>
