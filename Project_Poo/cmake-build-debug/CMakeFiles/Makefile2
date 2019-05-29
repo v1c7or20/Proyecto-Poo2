@@ -49,19 +49,33 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
+<<<<<<< Updated upstream
 CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
 RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+=======
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe"
+
+# The command to remove a file.
+RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+>>>>>>> Stashed changes
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug"
+>>>>>>> Stashed changes
 
 #=============================================================================
 # Target rules for target CMakeFiles/Project_Poo.dir
@@ -70,7 +84,11 @@ CMAKE_BINARY_DIR = C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cma
 CMakeFiles/Project_Poo.dir/all:
 	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/depend
 	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/build
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Project_Poo"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Project_Poo"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/Project_Poo.dir/all
 
 # Include target in all.
@@ -80,9 +98,15 @@ all: CMakeFiles/Project_Poo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Project_Poo.dir/rule: cmake_check_build_system
+<<<<<<< Updated upstream
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Project_Poo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Renzo\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Project_Poo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Mauricio Rodriguez\Documents\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles" 0
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/Project_Poo.dir/rule
 
 # Convenience name for target.

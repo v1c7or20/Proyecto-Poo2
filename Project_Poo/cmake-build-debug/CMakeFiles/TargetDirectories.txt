@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
 C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir
 C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/Mauricio Rodriguez/Documents/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/Project_Poo.dir
+C:/Users/Mauricio Rodriguez/Documents/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mauricio Rodriguez/Documents/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> Stashed changes
