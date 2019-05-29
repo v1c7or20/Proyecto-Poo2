@@ -150,6 +150,33 @@ Project_Poo/fast:
 	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/build
 .PHONY : Project_Poo/fast
 
+Tablero.obj: Tablero.cpp.obj
+
+.PHONY : Tablero.obj
+
+# target to build an object file
+Tablero.cpp.obj:
+	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.obj
+.PHONY : Tablero.cpp.obj
+
+Tablero.i: Tablero.cpp.i
+
+.PHONY : Tablero.i
+
+# target to preprocess a source file
+Tablero.cpp.i:
+	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.i
+.PHONY : Tablero.cpp.i
+
+Tablero.s: Tablero.cpp.s
+
+.PHONY : Tablero.s
+
+# target to generate assembly for a file
+Tablero.cpp.s:
+	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.s
+.PHONY : Tablero.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -186,6 +213,9 @@ help:
 	@echo ... Project_Poo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Tablero.obj
+	@echo ... Tablero.i
+	@echo ... Tablero.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
