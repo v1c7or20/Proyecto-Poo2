@@ -1,17 +1,26 @@
 //
 // Created by Usuario on 22/05/2019.
 //
-#include<stdlib.h>
+
+#include "dado.cpp"
+#include "casilla.cpp"
+
 #ifndef PROJECT_POO_FICHA_H
 #define PROJECT_POO_FICHA_H
+
+/*
+ F- Final J- En juego C- Casa S- Seguro
+*/
+
 
 
 class ficha {
 protected:
     char estado;
+    casilla *casilla;
 public:
-    ficha(char estado);
-    void moverse();
+    ficha();
+    void moverse(dado* dado);
 };
 
 

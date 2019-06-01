@@ -1,10 +1,14 @@
 #ifndef JUEGO_HPP
 #define JUEGO_HPP
 
+#include "Jugador.cpp"
+
 class juego {
 private:
     int turno;
     int numerojugadores;
+    Jugador* jugardores;
+    bool iniciado = false;
 public:
 	juego();
 	~juego();

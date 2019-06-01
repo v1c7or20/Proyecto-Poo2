@@ -1,17 +1,26 @@
 //
 // Created by Mauricio Rodriguez on 28/05/2019.
 //
-#include "ficha.h"
+#include "ficha.cpp"
+#include <string>
+
 #ifndef PROJECT_POO_JUGADOR_H
 #define PROJECT_POO_JUGADOR_H
-typedef int TipoDato;
+
+
+
+using  namespace std;
+
 class Jugador {
 private:
     string NombreJugador;
-    TipoDato color;
+    char color;
+    ficha* fichaj;
 public:
-    Jugador(string NombreJugador,TipoDato color);
+    Jugador(string NombreJugador,char color);
+
     void jugar(ficha* ficha,int movimiento);
+
     void seleccionarFichaEnJuego();
 };
 
