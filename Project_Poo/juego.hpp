@@ -10,7 +10,7 @@ public:
 	~juego();
 	void iniciajuego();
     void siguienteturno();
-    void adicionajugador(string nombre,tipe color);
+    void adicionajugador(string nombre,char color);
     bool validarsalidaficha();
     bool validarfindejuego();
     void finalizajuego();

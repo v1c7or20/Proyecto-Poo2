@@ -11,7 +11,7 @@ private:
     TipoDato color;
 public:
     Jugador(string NombreJugador,TipoDato color);
-    void jugar(ficha ficha,int movimiento);
+    void jugar(ficha* ficha,int movimiento);
     void seleccionarFichaEnJuego();
 };
 

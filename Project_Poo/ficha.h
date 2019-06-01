@@ -10,6 +10,7 @@ class ficha {
 protected:
     char estado;
 public:
+    ficha(char estado);
     void moverse();
 };
 

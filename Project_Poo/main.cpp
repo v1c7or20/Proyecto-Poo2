@@ -1,5 +1,8 @@
 #include "casilla.cpp"
 #include "ficha.cpp"
+#include "jugador.cpp"
+#include "juego.cpp"
+#include "tablero.cpp"
 
 int main() {
     casilla *c1= new casillainicio (1, 1, false,'r');
