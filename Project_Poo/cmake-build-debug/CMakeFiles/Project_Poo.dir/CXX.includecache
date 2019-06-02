@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp
+Jugador.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
+ficha.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+string
+-
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.cpp
+Tablero.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.h
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.h
+casilla.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
+
 C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
 iostream
 -
@@ -29,12 +47,16 @@ ficha.h
 C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
 
 C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
-dado.cpp
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp
-casilla.cpp
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+dado.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
+casilla.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
-ficha.cpp
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp
+juego.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.hpp
+Jugador.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp
 

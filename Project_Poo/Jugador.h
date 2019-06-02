@@ -1,13 +1,13 @@
 //
 // Created by Mauricio Rodriguez on 28/05/2019.
 //
-#include "ficha.cpp"
-#include <string>
+
 
 #ifndef PROJECT_POO_JUGADOR_H
 #define PROJECT_POO_JUGADOR_H
 
-
+#include "ficha.h"
+#include <string>
 
 using  namespace std;
 

@@ -2,12 +2,13 @@
 // Created by Usuario on 22/05/2019.
 //
 
-#include "dado.cpp"
-#include "casilla.cpp"
+
 
 #ifndef PROJECT_POO_FICHA_H
 #define PROJECT_POO_FICHA_H
 
+#include "dado.h"
+#include "casilla.h"
 /*
  F- Final J- En juego C- Casa S- Seguro
 */
