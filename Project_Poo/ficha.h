@@ -1,22 +1,26 @@
 //
 // Created by Usuario on 22/05/2019.
 //
-#include<stdlib.h>
+
+#include "dado.cpp"
+#include "casilla.cpp"
+
 #ifndef PROJECT_POO_FICHA_H
 #define PROJECT_POO_FICHA_H
+
+/*
+ F- Final J- En juego C- Casa S- Seguro
+*/
+
 
 
 class ficha {
 protected:
-    const unsigned int pos_ini;
-    unsigned int pos_act;
-    const unsigned int pos_final;
-    bool jugable= true;
+    char estado;
+    casilla *casilla;
 public:
-    ficha(unsigned int posIni, unsigned int posAct, unsigned int posFinal);
-    void moverse();
-    void esjugable();
-
+    ficha();
+    void moverse(dado* dado);
 };
 
 

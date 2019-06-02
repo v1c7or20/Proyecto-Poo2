@@ -6,25 +6,35 @@
 
 #IncludeRegexTransform: 
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
 iostream
 -
 casilla.h
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
-ficha.h
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
-
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
-stdlib.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp
+time.h
 -
+random
+-
+dado.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
+ficha.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+dado.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp
 casilla.cpp
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
 ficha.cpp
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
 

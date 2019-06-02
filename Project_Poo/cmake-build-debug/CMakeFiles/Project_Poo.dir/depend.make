@@ -3,6 +3,8 @@
 
 CMakeFiles/Project_Poo.dir/main.cpp.obj: ../casilla.cpp
 CMakeFiles/Project_Poo.dir/main.cpp.obj: ../casilla.h
+CMakeFiles/Project_Poo.dir/main.cpp.obj: ../dado.cpp
+CMakeFiles/Project_Poo.dir/main.cpp.obj: ../dado.h
 CMakeFiles/Project_Poo.dir/main.cpp.obj: ../ficha.cpp
 CMakeFiles/Project_Poo.dir/main.cpp.obj: ../ficha.h
 CMakeFiles/Project_Poo.dir/main.cpp.obj: ../main.cpp
