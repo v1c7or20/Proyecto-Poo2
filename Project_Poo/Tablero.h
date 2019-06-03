@@ -9,12 +9,12 @@
 
 class Tablero {
 private:
-
-
+    casilla* recorrido[12][6];
+    casillacasa* casas[4][4];
 public:
-    Tablero() {}
+    Tablero();
 
-    void mostrar(){}
+    void mostrar();
 
 };
 
