@@ -2,27 +2,22 @@
 // Created by Usuario on 22/05/2019.
 //
 
-
-
-#ifndef PROJECT_POO_FICHA_H
-#define PROJECT_POO_FICHA_H
-
-#include "dado.h"
-#include "casilla.h"
-/*
- F- Final J- En juego C- Casa S- Seguro
-*/
-
+#ifndef PROYECTO_POO2_FICHA_H
+#define PROYECTO_POO2_FICHA_H
 
 
 class ficha {
 protected:
-    char estado;
-    casilla *casilla;
+    int id;
+    casilla *posicion;
 public:
-    ficha();
-    void moverse(dado* dado);
+    ficha(int id, casilla *posicion, tablero *tablero_juego);
+
+    void moverse(dado *dado_juego, tablero *tablero_juego);
+
+    virtual ~ficha();
+
 };
 
 
-#endif //PROJECT_POO_FICHA_H
+#endif //PROYECTO_POO2_FICHA_H

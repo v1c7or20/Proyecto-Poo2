@@ -4,13 +4,19 @@
 
 #include "ficha.h"
 
+ficha::~ficha() {
 
-ficha::ficha(){
-    estado = 'C';
-    casilla = new casillacasa(1,2,true,'d');
 }
 
-void ficha::moverse(dado* dado) {
-    dado->lanzar();
+ficha::ficha(int id, casilla *posicion, tablero *tablero_juego)
+        : id(id) {posicion = tablero_juego->getcasa(id)}
 
+void ficha::moverse(dado *dado_juego, tablero *tablero_juego) {
+    int numero_sacado = dado_juego->lanzar();
+    if(*posicion == casillacasa){
+        if(numero_sacado == 6)
+            posicion=tablero_juego->getinicioxjugador(id);
+    }
+    else
+        posicion=tablero_juego->avanzar()
 }

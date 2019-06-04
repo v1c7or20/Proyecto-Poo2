@@ -5,6 +5,8 @@
 #ifndef PROJECT_POO_CASILLA_H
 #define PROJECT_POO_CASILLA_H
 
+#include "Jugador.h"
+
 class casilla {
 protected:
     int x;
@@ -18,7 +20,7 @@ public:
 
 class casillainicio: public casilla{
 public:
-    casillainicio(int x , int y, bool disponible, char color);
+    casillainicio(int x , int y, bool disponible, char color,Jugador pertenece_a);
     void mostrar() override;
 };
 
@@ -38,7 +40,7 @@ public:
 
 class casilladestino: public casilla{
 public:
-    casilladestino(int x, int y, bool disponible, char color);
+    casilladestino(int x, int y, bool disponible, char color,Jugador pertenece_a));
 
     void mostrar() override;
 };

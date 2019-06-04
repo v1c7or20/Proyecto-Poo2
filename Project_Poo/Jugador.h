@@ -2,27 +2,23 @@
 // Created by Mauricio Rodriguez on 28/05/2019.
 //
 
+#ifndef PROYECTO_POO2_JUGADOR_H
+#define PROYECTO_POO2_JUGADOR_H
 
-#ifndef PROJECT_POO_JUGADOR_H
-#define PROJECT_POO_JUGADOR_H
 
 #include "ficha.h"
-#include <string>
-
-using  namespace std;
 
 class Jugador {
-private:
-    string NombreJugador;
-    char color;
-    ficha* fichaj;
+protected:
+    int numero;
+    ficha *fichas;
 public:
-    Jugador(string NombreJugador,char color);
+    Jugador(int numero);
 
-    void jugar(ficha* ficha,int movimiento);
+    int getNumero() const;
 
-    void seleccionarFichaEnJuego();
+    ficha *getFichas() const;
 };
 
 
-#endif //PROJECT_POO_JUGADOR_H
+#endif //PROYECTO_POO2_JUGADOR_H

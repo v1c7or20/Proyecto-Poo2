@@ -1,31 +1,45 @@
-#include "juego.hpp"
+//
+// Created by Usuario on 3/06/2019.
+//
 
-juego::juego() {
+#include "juego.hpp"
+#include <iostream>
+
+using namespace std;
+
+
+void juego::iniciarjuego() {
 
 }
 
-juego::~juego() {}
-
-void juego::iniciajuego() {
-
+juego::juego(int numjugador, int turnos)
+        : numjugador(2), turnos(0){
+    jugadores= new Jugador*[2];
+    Tabla_juego= new Tablero();
+    dado_juego = new dado();
 }
 
 void juego::siguienteturno() {
 
 }
 
-void juego::adicionajugador(string nombre, char color) {
+void juego::adicionarJugador() {
+    if(numjugador<4){
+        numjugador++;
+        delete jugadores;
+        jugadores = new Jugador*[numjugador];
+        for (int i = 0; i <numjugador ; i++) {
+            jugadores[i]=new Jugador(i+1);
+        }
+    }
+    else
+        cout<<"No se puede agregar mas jugadores"<<endl;
+}
+
+void juego::validadsalidadeficha() {
 
 }
 
-bool juego::validarsalidaficha() {
-    return false;
-}
-
-bool juego::validarfindejuego() {
-    return false;
-}
-
-void juego::finalizajuego() {
+void juego::validarcapturadeficha() {
 
 }

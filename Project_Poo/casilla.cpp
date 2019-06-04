@@ -10,8 +10,8 @@ using namespace std;
 casilla::casilla(int x, int y, bool disponible,char color)
 : x(x), y(y), disponible(disponible), color(color) {}
 
-casillainicio::casillainicio(int x, int y, bool disponible, char color)
-        : casilla(x, y, disponible, color) {}
+casillainicio::casillainicio(int x, int y, bool disponible, char color,Jugador _pertenece_a)
+        : casilla(x, y, disponible, color){ _pertenece_a = _pertenece_a;}
 
 
 void casillainicio::mostrar() {
@@ -29,7 +29,7 @@ void casillacasa::mostrar() {
 }
 
 casillarecorrido::casillarecorrido(int x, int y, bool disponible, char color)
-: casilla(x, y, disponible, color) {}
+: casilla(x, y, disponible, color) { _pertenece_a = _pertenece_a;}
 
 void casillarecorrido::mostrar() {
 

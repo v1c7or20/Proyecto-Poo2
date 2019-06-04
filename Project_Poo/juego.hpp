@@ -1,23 +1,33 @@
-#ifndef JUEGO_HPP
-#define JUEGO_HPP
+//
+// Created by Usuario on 3/06/2019.
+//
 
-#include "Jugador.cpp"
+#ifndef PROYECTO_POO2_JUEGO_H
+#define PROYECTO_POO2_JUEGO_H
+
+
+#include "Tablero.h"
+#include "dado.h"
+#include "Jugador.h"
 
 class juego {
-private:
-    int turno;
-    int numerojugadores;
-    Jugador* jugardores;
-    bool iniciado = false;
+protected:
+    int numjugador;
+    int turnos;
+    Tablero *Tabla_juego;
+    Jugador **jugadores;
+    dado *dado_juego;
 public:
-	juego();
-	~juego();
-	void iniciajuego();
+    juego(int jugadores, int turnos);
     void siguienteturno();
-    void adicionajugador(string nombre,char color);
-    bool validarsalidaficha();
-    bool validarfindejuego();
-    void finalizajuego();
+    void adicionarJugador();
+    virtual void validarfindejuego() =0;
+    void validadsalidadeficha();
+    void validarcapturadeficha();
+    virtual void finalizarjuego()=0;
+    virtual void iniciarjuego()=0;
+
 };
 
-#endif
+
+#endif //PROYECTO_POO2_JUEGO_H
