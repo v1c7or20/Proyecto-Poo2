@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo
+CMAKE_SOURCE_DIR = C:\Users\Renzo\CLionProjects\Prueba_Grafica_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Renzo\CLionProjects\Prueba_Grafica_01\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Renzo\CLionProjects\Prueba_Grafica_01\cmake-build-debug\CMakeFiles C:\Users\Renzo\CLionProjects\Prueba_Grafica_01\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Renzo\CLionProjects\Prueba_Grafica_01\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project_Poo
+# Target rules for targets named SFMLApp
 
 # Build rule for target.
-Project_Poo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Project_Poo
-.PHONY : Project_Poo
+SFMLApp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SFMLApp
+.PHONY : SFMLApp
 
 # fast build rule for target.
-Project_Poo/fast:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/build
-.PHONY : Project_Poo/fast
+SFMLApp/fast:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/build
+.PHONY : SFMLApp/fast
+
+juego.obj: juego.cpp.obj
+
+.PHONY : juego.obj
+
+# target to build an object file
+juego.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.obj
+.PHONY : juego.cpp.obj
+
+juego.i: juego.cpp.i
+
+.PHONY : juego.i
+
+# target to preprocess a source file
+juego.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.i
+.PHONY : juego.cpp.i
+
+juego.s: juego.cpp.s
+
+.PHONY : juego.s
+
+# target to generate assembly for a file
+juego.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.s
+.PHONY : juego.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -128,7 +155,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,9 +182,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Project_Poo
+	@echo ... SFMLApp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... juego.obj
+	@echo ... juego.i
+	@echo ... juego.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

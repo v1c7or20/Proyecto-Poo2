@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo
+# Install script for directory: C:/Users/Renzo/CLionProjects/Prueba_Grafica_01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project_Poo")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Prueba_Grafica_01")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Renzo/CLionProjects/Prueba_Grafica_01/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

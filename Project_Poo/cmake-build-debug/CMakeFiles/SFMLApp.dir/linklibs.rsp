@@ -1,0 +1,1 @@
+ -LC:/Users/Renzo/CLionProjects/Prueba_Grafica_01/SFML_LIBRARY_DIR D:/SFML-2.5.1/lib/libsfml-graphics-d.a D:/SFML-2.5.1/lib/libsfml-window-d.a D:/SFML-2.5.1/lib/libsfml-system-d.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

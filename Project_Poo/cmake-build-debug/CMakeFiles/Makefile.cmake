@@ -38,6 +38,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
+  "D:/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
+  "D:/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+  "D:/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake"
+  "D:/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake"
+  "D:/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
+  "D:/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake"
   )
 
 # The corresponding makefile is:
@@ -53,5 +59,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Project_Poo.dir/DependInfo.cmake"
+  "CMakeFiles/SFMLApp.dir/DependInfo.cmake"
   )
