@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo
+CMAKE_SOURCE_DIR = C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\saidchoquehuanca\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,168 +122,6 @@ Project_Poo/fast:
 	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/build
 .PHONY : Project_Poo/fast
 
-Jugador.obj: Jugador.cpp.obj
-
-.PHONY : Jugador.obj
-
-# target to build an object file
-Jugador.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Jugador.cpp.obj
-.PHONY : Jugador.cpp.obj
-
-Jugador.i: Jugador.cpp.i
-
-.PHONY : Jugador.i
-
-# target to preprocess a source file
-Jugador.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Jugador.cpp.i
-.PHONY : Jugador.cpp.i
-
-Jugador.s: Jugador.cpp.s
-
-.PHONY : Jugador.s
-
-# target to generate assembly for a file
-Jugador.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Jugador.cpp.s
-.PHONY : Jugador.cpp.s
-
-Tablero.obj: Tablero.cpp.obj
-
-.PHONY : Tablero.obj
-
-# target to build an object file
-Tablero.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.obj
-.PHONY : Tablero.cpp.obj
-
-Tablero.i: Tablero.cpp.i
-
-.PHONY : Tablero.i
-
-# target to preprocess a source file
-Tablero.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.i
-.PHONY : Tablero.cpp.i
-
-Tablero.s: Tablero.cpp.s
-
-.PHONY : Tablero.s
-
-# target to generate assembly for a file
-Tablero.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/Tablero.cpp.s
-.PHONY : Tablero.cpp.s
-
-casilla.obj: casilla.cpp.obj
-
-.PHONY : casilla.obj
-
-# target to build an object file
-casilla.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/casilla.cpp.obj
-.PHONY : casilla.cpp.obj
-
-casilla.i: casilla.cpp.i
-
-.PHONY : casilla.i
-
-# target to preprocess a source file
-casilla.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/casilla.cpp.i
-.PHONY : casilla.cpp.i
-
-casilla.s: casilla.cpp.s
-
-.PHONY : casilla.s
-
-# target to generate assembly for a file
-casilla.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/casilla.cpp.s
-.PHONY : casilla.cpp.s
-
-dado.obj: dado.cpp.obj
-
-.PHONY : dado.obj
-
-# target to build an object file
-dado.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/dado.cpp.obj
-.PHONY : dado.cpp.obj
-
-dado.i: dado.cpp.i
-
-.PHONY : dado.i
-
-# target to preprocess a source file
-dado.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/dado.cpp.i
-.PHONY : dado.cpp.i
-
-dado.s: dado.cpp.s
-
-.PHONY : dado.s
-
-# target to generate assembly for a file
-dado.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/dado.cpp.s
-.PHONY : dado.cpp.s
-
-ficha.obj: ficha.cpp.obj
-
-.PHONY : ficha.obj
-
-# target to build an object file
-ficha.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/ficha.cpp.obj
-.PHONY : ficha.cpp.obj
-
-ficha.i: ficha.cpp.i
-
-.PHONY : ficha.i
-
-# target to preprocess a source file
-ficha.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/ficha.cpp.i
-.PHONY : ficha.cpp.i
-
-ficha.s: ficha.cpp.s
-
-.PHONY : ficha.s
-
-# target to generate assembly for a file
-ficha.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/ficha.cpp.s
-.PHONY : ficha.cpp.s
-
-juego.obj: juego.cpp.obj
-
-.PHONY : juego.obj
-
-# target to build an object file
-juego.cpp.obj:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/juego.cpp.obj
-.PHONY : juego.cpp.obj
-
-juego.i: juego.cpp.i
-
-.PHONY : juego.i
-
-# target to preprocess a source file
-juego.cpp.i:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/juego.cpp.i
-.PHONY : juego.cpp.i
-
-juego.s: juego.cpp.s
-
-.PHONY : juego.s
-
-# target to generate assembly for a file
-juego.cpp.s:
-	$(MAKE) -f CMakeFiles\Project_Poo.dir\build.make CMakeFiles/Project_Poo.dir/juego.cpp.s
-.PHONY : juego.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -320,24 +158,6 @@ help:
 	@echo ... Project_Poo
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Jugador.obj
-	@echo ... Jugador.i
-	@echo ... Jugador.s
-	@echo ... Tablero.obj
-	@echo ... Tablero.i
-	@echo ... Tablero.s
-	@echo ... casilla.obj
-	@echo ... casilla.i
-	@echo ... casilla.s
-	@echo ... dado.obj
-	@echo ... dado.i
-	@echo ... dado.s
-	@echo ... ficha.obj
-	@echo ... ficha.i
-	@echo ... ficha.s
-	@echo ... juego.obj
-	@echo ... juego.i
-	@echo ... juego.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

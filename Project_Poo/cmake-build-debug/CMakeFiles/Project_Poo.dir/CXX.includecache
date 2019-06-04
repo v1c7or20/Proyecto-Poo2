@@ -6,57 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp
-Jugador.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
+C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.h
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
-ficha.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
-string
--
+C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.cpp
-Tablero.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.h
-casilla.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp
+C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
 iostream
 -
-casilla.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp
-time.h
--
-random
--
-dado.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp
 ficha.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
-dado.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
-casilla.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp
-juego.hpp
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.hpp
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.hpp
-Jugador.cpp
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp
+C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.h
+Tablero.h
+C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Tablero.h
 
