@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Mauricio Rodriguez\GitHub\Proyecto-Poo2\Project_Poo"
+CMAKE_SOURCE_DIR = C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Mauricio Rodriguez\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = "C:\Users\Mauricio Rodriguez\GitHub\Proyecto-Poo2\Project_Poo
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Mauricio Rodriguez\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles" "C:\Users\Mauricio Rodriguez\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Mauricio Rodriguez\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,114 @@ SFMLApp: cmake_check_build_system
 SFMLApp/fast:
 	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/build
 .PHONY : SFMLApp/fast
+
+Jugador.obj: Jugador.cpp.obj
+
+.PHONY : Jugador.obj
+
+# target to build an object file
+Jugador.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.obj
+.PHONY : Jugador.cpp.obj
+
+Jugador.i: Jugador.cpp.i
+
+.PHONY : Jugador.i
+
+# target to preprocess a source file
+Jugador.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.i
+.PHONY : Jugador.cpp.i
+
+Jugador.s: Jugador.cpp.s
+
+.PHONY : Jugador.s
+
+# target to generate assembly for a file
+Jugador.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.s
+.PHONY : Jugador.cpp.s
+
+casilla.obj: casilla.cpp.obj
+
+.PHONY : casilla.obj
+
+# target to build an object file
+casilla.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/casilla.cpp.obj
+.PHONY : casilla.cpp.obj
+
+casilla.i: casilla.cpp.i
+
+.PHONY : casilla.i
+
+# target to preprocess a source file
+casilla.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/casilla.cpp.i
+.PHONY : casilla.cpp.i
+
+casilla.s: casilla.cpp.s
+
+.PHONY : casilla.s
+
+# target to generate assembly for a file
+casilla.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/casilla.cpp.s
+.PHONY : casilla.cpp.s
+
+dado.obj: dado.cpp.obj
+
+.PHONY : dado.obj
+
+# target to build an object file
+dado.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.obj
+.PHONY : dado.cpp.obj
+
+dado.i: dado.cpp.i
+
+.PHONY : dado.i
+
+# target to preprocess a source file
+dado.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.i
+.PHONY : dado.cpp.i
+
+dado.s: dado.cpp.s
+
+.PHONY : dado.s
+
+# target to generate assembly for a file
+dado.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.s
+.PHONY : dado.cpp.s
+
+ficha.obj: ficha.cpp.obj
+
+.PHONY : ficha.obj
+
+# target to build an object file
+ficha.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/ficha.cpp.obj
+.PHONY : ficha.cpp.obj
+
+ficha.i: ficha.cpp.i
+
+.PHONY : ficha.i
+
+# target to preprocess a source file
+ficha.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/ficha.cpp.i
+.PHONY : ficha.cpp.i
+
+ficha.s: ficha.cpp.s
+
+.PHONY : ficha.s
+
+# target to generate assembly for a file
+ficha.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/ficha.cpp.s
+.PHONY : ficha.cpp.s
 
 juego.obj: juego.cpp.obj
 
@@ -176,6 +284,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+recorrido.obj: recorrido.cpp.obj
+
+.PHONY : recorrido.obj
+
+# target to build an object file
+recorrido.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/recorrido.cpp.obj
+.PHONY : recorrido.cpp.obj
+
+recorrido.i: recorrido.cpp.i
+
+.PHONY : recorrido.i
+
+# target to preprocess a source file
+recorrido.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/recorrido.cpp.i
+.PHONY : recorrido.cpp.i
+
+recorrido.s: recorrido.cpp.s
+
+.PHONY : recorrido.s
+
+# target to generate assembly for a file
+recorrido.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/recorrido.cpp.s
+.PHONY : recorrido.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +320,27 @@ help:
 	@echo ... SFMLApp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Jugador.obj
+	@echo ... Jugador.i
+	@echo ... Jugador.s
+	@echo ... casilla.obj
+	@echo ... casilla.i
+	@echo ... casilla.s
+	@echo ... dado.obj
+	@echo ... dado.i
+	@echo ... dado.s
+	@echo ... ficha.obj
+	@echo ... ficha.i
+	@echo ... ficha.s
 	@echo ... juego.obj
 	@echo ... juego.i
 	@echo ... juego.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... recorrido.obj
+	@echo ... recorrido.i
+	@echo ... recorrido.s
 .PHONY : help
 
 

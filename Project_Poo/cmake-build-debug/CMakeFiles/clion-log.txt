@@ -1,8 +1,8 @@
-"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Mauricio Rodriguez\GitHub\Proyecto-Poo2\Project_Poo"
--- Found SFML 2.5.1 in C:/Users/Mauricio Rodriguez/Music/SFML-2.5.1/lib/cmake/SFML
+"C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo
+-- Found SFML 2.5.1 in C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/cmake/SFML
 -- SFML_INCLUDE_DIR: C:/Users/Mauricio Rodriguez/Music/SFML-2.5.1/include
 -- SFML_LIBRARIES: 
 -- SFML_VERSION: 2.5.1
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Mauricio Rodriguez/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug
+-- Build files have been written to: C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug
