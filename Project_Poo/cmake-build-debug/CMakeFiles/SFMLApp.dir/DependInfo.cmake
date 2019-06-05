@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Renzo/CLionProjects/Prueba_Grafica_01/juego.cpp" "C:/Users/Renzo/CLionProjects/Prueba_Grafica_01/cmake-build-debug/CMakeFiles/SFMLApp.dir/juego.cpp.obj"
-  "C:/Users/Renzo/CLionProjects/Prueba_Grafica_01/main.cpp" "C:/Users/Renzo/CLionProjects/Prueba_Grafica_01/cmake-build-debug/CMakeFiles/SFMLApp.dir/main.cpp.obj"
+  "C:/Users/Mauricio Rodriguez/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp" "C:/Users/Mauricio Rodriguez/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/juego.cpp.obj"
+  "C:/Users/Mauricio Rodriguez/GitHub/Proyecto-Poo2/Project_Poo/main.cpp" "C:/Users/Mauricio Rodriguez/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../SFML_INCLUDE_DIR"
-  "D:/SFML-2.5.1/include"
+  "C:/Users/Mauricio Rodriguez/Music/SFML-2.5.1/include"
   )
 
 # Targets to which this target links.

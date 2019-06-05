@@ -3,9 +3,9 @@ project(SFMLApp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SFML_INCLUDE_DIR "D:/SFML-2.5.1/include")
-set(SFML_LIBRARY_DIR "D:/SFML-2.5.1/lib")
-set(SFML_DIR "D:/SFML-2.5.1/lib/cmake/SFML")
+set(SFML_INCLUDE_DIR "C:/Users/Mauricio Rodriguez/Music/SFML-2.5.1/include")
+set(SFML_LIBRARY_DIR "C:/Users/Mauricio Rodriguez/Music/SFML-2.5.1/lib")
+set(SFML_DIR "C:/Users/Mauricio Rodriguez/Music/SFML-2.5.1/lib/cmake/SFML")
 
 link_directories(SFML_LIBRARY_DIR)
 include_directories(SFML_INCLUDE_DIR)

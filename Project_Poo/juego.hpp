@@ -28,6 +28,4 @@ public:
     virtual void iniciarjuego()=0;
 
 };
-
-
 #endif //PROYECTO_POO2_JUEGO_H
