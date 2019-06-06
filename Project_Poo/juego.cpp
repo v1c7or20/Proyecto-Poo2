@@ -21,93 +21,92 @@ juego::juego(int res_x, int res_y, string titulo, int N_Jugadores) {
     fichaAmarilla = new Texture;
     fichaVerde = new Texture;
     fichaRojo = new Texture;
-        //Ficha Azul
-    fichaAzul_1 = new Sprite;
-    fichaAzul_2 = new Sprite;
-    fichaAzul_3 = new Sprite;
-    fichaAzul_4 = new Sprite;
-
-        //Ficha Rojo
-    fichaRojo_1 = new Sprite;
-    fichaRojo_2 = new Sprite;
-    fichaRojo_3 = new Sprite;
-    fichaRojo_4 = new Sprite;
-
-        //Ficha Verde
-    fichaVerde_1 = new Sprite;
-    fichaVerde_2 = new Sprite;
-    fichaVerde_3 = new Sprite;
-    fichaVerde_4 = new Sprite;
-
-        //Ficha Amarilla
-    fichaAmarilla_1 = new Sprite;
-    fichaAmarilla_2 = new Sprite;
-    fichaAmarilla_3 = new Sprite;
-    fichaAmarilla_4 = new Sprite;
-
 
     //Cargamos el archivo de textura
-        //Tablero
+    //Tablero
     tablero->loadFromFile("Texturas/tablero.jpg");
     tablero_fondo->setTexture(*tablero);
-        //Ficha
+    //Ficha
     fichaAzul->loadFromFile("Texturas/fichaAzul.png");
     fichaVerde->loadFromFile("Texturas/fichaVerde.png");
     fichaRojo->loadFromFile("Texturas/fichaRojo.png");
     fichaAmarilla->loadFromFile("Texturas/fichaAmarilla.png");
+
+
+        //Ficha Azul
+    fichasAzules=new Sprite*[4];
+    for (int i = 0; i < 4; i++) {
+        fichasAzules[i]= new Sprite;
+    }
+    for (int i = 0; i < 4; i++) {
+        fichasAzules[i]->setTexture(*fichaAzul);
+    }
+
+        //Ficha Rojo
+    fichasRojas=new Sprite*[4];
+    for (int i = 0; i < 4; i++) {
+        fichasRojas[i]= new Sprite;
+    }
+    for (int i = 0; i < 4; i++) {
+        fichasRojas[i]->setTexture(*fichaRojo);
+    }
+
+        //Ficha Verde
+    fichasVerdes=new Sprite*[4];
+    for (int i = 0; i < 4; i++) {
+        fichasVerdes[i]= new Sprite;
+    }
+    for (int i = 0; i < 4; i++) {
+        fichasVerdes[i]->setTexture(*fichaVerde);
+    };
+
+        //Ficha Amarilla
+    fichasAmarillas=new Sprite*[4];
+    for (int i = 0; i < 4; i++) {
+        fichasAmarillas[i]= new Sprite;
+    }
+    for (int i = 0; i < 4; i++) {
+        fichasAmarillas[i]->setTexture(*fichaAmarilla);
+    }
+
+
     //Posiciones
         //Ficha Azul
     float xf1=130,yf1=50;
-    fichaAzul_1->setTexture(*fichaAzul);
-    fichaAzul_1->setPosition(xf1,yf1);
+    fichasAzules[0]->setPosition(xf1,yf1);
             //Ficha 2
-    fichaAzul_2->setTexture(*fichaAzul);
-    fichaAzul_2->setPosition(230,50);
+    fichasAzules[1]->setPosition(230,50);
             //Ficha 2
-    fichaAzul_3->setTexture(*fichaAzul);
-    fichaAzul_3->setPosition(230,150);
+    fichasAzules[2]->setPosition(230,150);
             //Ficha 2
-    fichaAzul_4->setTexture(*fichaAzul);
-    fichaAzul_4->setPosition(130,150);
+    fichasAzules[3]->setPosition(130,150);
     
         //Ficha Verde
-    fichaVerde_1->setTexture(*fichaVerde);
-    fichaVerde_1->setPosition(520,500);
+    fichasVerdes[0]->setPosition(520,500);
     //Ficha 2
-    fichaVerde_2->setTexture(*fichaVerde);
-    fichaVerde_2->setPosition(620,500);
+    fichasVerdes[1]->setPosition(620,500);
     //Ficha 2
-    fichaVerde_3->setTexture(*fichaVerde);
-    fichaVerde_3->setPosition(520,400);
+    fichasVerdes[2]->setPosition(520,400);
     //Ficha 2
-    fichaVerde_4->setTexture(*fichaVerde);
-    fichaVerde_4->setPosition(620,400);
+    fichasVerdes[3]->setPosition(620,400);
 
         //Ficha Rojo
-    fichaRojo_1->setTexture(*fichaRojo);
-    fichaRojo_1->setPosition(130,500);
+    fichasRojas[0]->setPosition(130,500);
     //Ficha 2
-    fichaRojo_2->setTexture(*fichaRojo);
-    fichaRojo_2->setPosition(230,500);
+    fichasRojas[1]->setPosition(230,500);
     //Ficha 2
-    fichaRojo_3->setTexture(*fichaRojo);
-    fichaRojo_3->setPosition(230,400);
+    fichasRojas[2]->setPosition(230,400);
     //Ficha 2
-    fichaRojo_4->setTexture(*fichaRojo);
-    fichaRojo_4->setPosition(130,400);
+    fichasRojas[3]->setPosition(130,400);
     
         //Ficha Amarilla
-    fichaAmarilla_1->setTexture(*fichaAmarilla);
-    fichaAmarilla_1->setPosition(520,50);
+    fichasAmarillas[0]->setPosition(520,50);
     //Ficha 2
-    fichaAmarilla_2->setTexture(*fichaAmarilla);
-    fichaAmarilla_2->setPosition(620,50);
+    fichasAmarillas[1]->setPosition(620,50);
     //Ficha 2
-    fichaAmarilla_3->setTexture(*fichaAmarilla);
-    fichaAmarilla_3->setPosition(620,150);
+    fichasAmarillas[2]->setPosition(620,150);
     //Ficha 2
-    fichaAmarilla_4->setTexture(*fichaAmarilla);
-    fichaAmarilla_4->setPosition(520,150);
+    fichasAmarillas[3]->setPosition(520,150);
 
 
     game_loop();
@@ -143,9 +142,9 @@ void juego::draw_game() {
 
     float xf1=130,yf1;
     if (Keyboard::isKeyPressed(Keyboard::Num6)) {
-        fichaAzul_1->setPosition(xf1, yf1 = 235);
-        if (Keyboard::isKeyPressed(Keyboard::Right))
-            fichaAzul_1->setPosition(xf1+=50,yf1);
+        fichasAzules[0]->setPosition(xf1, yf1 = 235);
+    if (Keyboard::isKeyPressed(Keyboard::Right))
+        fichasAzules[0]->setPosition(xf1+=50,yf1);
     }
 
 
@@ -153,31 +152,31 @@ void juego::draw_game() {
 
 //Establecer funciones dibujar
 void juego::dibujarAzul(){
-    ventana_juego->draw(*fichaAzul_1);
-    ventana_juego->draw(*fichaAzul_2);
-    ventana_juego->draw(*fichaAzul_3);
-    ventana_juego->draw(*fichaAzul_4);
+    ventana_juego->draw(*fichasAzules[0]);
+    ventana_juego->draw(*fichasAzules[1]);
+    ventana_juego->draw(*fichasAzules[2]);
+    ventana_juego->draw(*fichasAzules[3]);
 }
 
 void juego::dibujarAmarilla() {
-    ventana_juego->draw(*fichaAmarilla_1);
-    ventana_juego->draw(*fichaAmarilla_2);
-    ventana_juego->draw(*fichaAmarilla_3);
-    ventana_juego->draw(*fichaAmarilla_4);
+    ventana_juego->draw(*fichasAmarillas[0]);
+    ventana_juego->draw(*fichasAmarillas[1]);
+    ventana_juego->draw(*fichasAmarillas[2]);
+    ventana_juego->draw(*fichasAmarillas[3]);
 }
 
 void juego::dibujarRojo() {
-    ventana_juego->draw(*fichaRojo_1);
-    ventana_juego->draw(*fichaRojo_2);
-    ventana_juego->draw(*fichaRojo_3);
-    ventana_juego->draw(*fichaRojo_4);
+    ventana_juego->draw(*fichasRojas[0]);
+    ventana_juego->draw(*fichasRojas[1]);
+    ventana_juego->draw(*fichasRojas[2]);
+    ventana_juego->draw(*fichasRojas[3]);
 }
 
 void juego::dibujarVerde() {
-    ventana_juego->draw(*fichaVerde_1);
-    ventana_juego->draw(*fichaVerde_2);
-    ventana_juego->draw(*fichaVerde_3);
-    ventana_juego->draw(*fichaVerde_4);
+    ventana_juego->draw(*fichasVerdes[0]);
+    ventana_juego->draw(*fichasVerdes[1]);
+    ventana_juego->draw(*fichasVerdes[2]);
+    ventana_juego->draw(*fichasVerdes[3]);
 }
 
 //Loop

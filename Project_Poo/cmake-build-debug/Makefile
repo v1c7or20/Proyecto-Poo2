@@ -122,114 +122,6 @@ SFMLApp/fast:
 	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/build
 .PHONY : SFMLApp/fast
 
-Jugador.obj: Jugador.cpp.obj
-
-.PHONY : Jugador.obj
-
-# target to build an object file
-Jugador.cpp.obj:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.obj
-.PHONY : Jugador.cpp.obj
-
-Jugador.i: Jugador.cpp.i
-
-.PHONY : Jugador.i
-
-# target to preprocess a source file
-Jugador.cpp.i:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.i
-.PHONY : Jugador.cpp.i
-
-Jugador.s: Jugador.cpp.s
-
-.PHONY : Jugador.s
-
-# target to generate assembly for a file
-Jugador.cpp.s:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.s
-.PHONY : Jugador.cpp.s
-
-casilla.obj: casilla.cpp.obj
-
-.PHONY : casilla.obj
-
-# target to build an object file
-casilla.cpp.obj:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/casilla.cpp.obj
-.PHONY : casilla.cpp.obj
-
-casilla.i: casilla.cpp.i
-
-.PHONY : casilla.i
-
-# target to preprocess a source file
-casilla.cpp.i:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/casilla.cpp.i
-.PHONY : casilla.cpp.i
-
-casilla.s: casilla.cpp.s
-
-.PHONY : casilla.s
-
-# target to generate assembly for a file
-casilla.cpp.s:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/casilla.cpp.s
-.PHONY : casilla.cpp.s
-
-dado.obj: dado.cpp.obj
-
-.PHONY : dado.obj
-
-# target to build an object file
-dado.cpp.obj:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.obj
-.PHONY : dado.cpp.obj
-
-dado.i: dado.cpp.i
-
-.PHONY : dado.i
-
-# target to preprocess a source file
-dado.cpp.i:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.i
-.PHONY : dado.cpp.i
-
-dado.s: dado.cpp.s
-
-.PHONY : dado.s
-
-# target to generate assembly for a file
-dado.cpp.s:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.s
-.PHONY : dado.cpp.s
-
-ficha.obj: ficha.cpp.obj
-
-.PHONY : ficha.obj
-
-# target to build an object file
-ficha.cpp.obj:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/ficha.cpp.obj
-.PHONY : ficha.cpp.obj
-
-ficha.i: ficha.cpp.i
-
-.PHONY : ficha.i
-
-# target to preprocess a source file
-ficha.cpp.i:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/ficha.cpp.i
-.PHONY : ficha.cpp.i
-
-ficha.s: ficha.cpp.s
-
-.PHONY : ficha.s
-
-# target to generate assembly for a file
-ficha.cpp.s:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/ficha.cpp.s
-.PHONY : ficha.cpp.s
-
 juego.obj: juego.cpp.obj
 
 .PHONY : juego.obj
@@ -320,18 +212,6 @@ help:
 	@echo ... SFMLApp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Jugador.obj
-	@echo ... Jugador.i
-	@echo ... Jugador.s
-	@echo ... casilla.obj
-	@echo ... casilla.i
-	@echo ... casilla.s
-	@echo ... dado.obj
-	@echo ... dado.i
-	@echo ... dado.s
-	@echo ... ficha.obj
-	@echo ... ficha.i
-	@echo ... ficha.s
 	@echo ... juego.obj
 	@echo ... juego.i
 	@echo ... juego.s

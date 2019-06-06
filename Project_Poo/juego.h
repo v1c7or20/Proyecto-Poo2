@@ -17,31 +17,20 @@ private:
     //Fichas
         //ficha Azul
     Texture * fichaAzul;
-    Sprite * fichaAzul_1;
-    Sprite * fichaAzul_2;
-    Sprite * fichaAzul_3;
-    Sprite * fichaAzul_4;
+    Sprite ** fichasAzules;
 
     //ficha Roja
     Texture * fichaRojo;
-    Sprite * fichaRojo_1;
-    Sprite * fichaRojo_2;
-    Sprite * fichaRojo_3;
-    Sprite * fichaRojo_4;
+    Sprite ** fichasRojas;
 
     //ficha Verde
     Texture * fichaVerde;
-    Sprite * fichaVerde_1;
-    Sprite * fichaVerde_2;
-    Sprite * fichaVerde_3;
-    Sprite * fichaVerde_4;
+    Sprite ** fichasVerdes;
 
     //ficha Amarilla
     Texture * fichaAmarilla;
-    Sprite * fichaAmarilla_1;
-    Sprite * fichaAmarilla_2;
-    Sprite * fichaAmarilla_3;
-    Sprite * fichaAmarilla_4;
+    Sprite **fichasAmarillas;
+
 
     //Ventana Juego
     RenderWindow * ventana_juego;

@@ -4,10 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/Jugador.cpp.obj"
-  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/casilla.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/casilla.cpp.obj"
-  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/dado.cpp.obj"
-  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/ficha.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/ficha.cpp.obj"
   "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/juego.cpp.obj"
   "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/main.cpp.obj"
   "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/recorrido.cpp.obj"
