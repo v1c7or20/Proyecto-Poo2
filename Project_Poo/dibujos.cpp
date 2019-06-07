@@ -179,11 +179,27 @@ void dibujos::dibujarVerde() {
     ventana_juego->draw(*fichasVerdes[2]);
     ventana_juego->draw(*fichasVerdes[3]);
 }
+float **dibujos::Posiciones(Sprite** ficha){
+    auto **coleccion_posiciones= new float*[4];
+    for (int i=0;i<4;i++){
+        coleccion_posiciones[4]= new float[2];
+        for(int j=0;j<2;j++){
+            coleccion_posiciones[i][j]= ficha[i]->getPosition().x;
+            coleccion_posiciones[i][j]= ficha[i]->getPosition().y;
+        }
+    }
+    return coleccion_posiciones;
+}
 
 //Loop
 void dibujos::game_loop() {
     recorrido *recorridoJuego= new recorrido();
-    Jugador **jugadores = new Jugador*[4];
+    int N= getNJugadores();
+    Jugador **jugadores = new Jugador*[N];
+    for (int i=0;i<N;i++){
+        jugadores[i] = new Jugador(10,10,getFicha('B'),'B',recorridoJuego->getRecorridoazul());
+    }
+
     while (ventana_juego->isOpen()) {
         Event event;
         while (ventana_juego->pollEvent(event)) {
@@ -196,14 +212,7 @@ void dibujos::game_loop() {
 int dibujos::getNJugadores() const {
     return N_Jugadores;
 }
-auto dibujos::getXPosition(Sprite **fichas,int num) {
-    num=-1;
-    return fichas[num]->getPosition().x;
-}
-auto dibujos::getYPosition(Sprite **fichas,int num) {
-    num=-1;
-    return fichas[num]->getPosition().y;
-}
+
 
 Sprite **dibujos::getFicha(char color) {
     if (color=='R')
