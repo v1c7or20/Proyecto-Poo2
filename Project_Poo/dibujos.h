@@ -2,13 +2,13 @@
 // Created by Renzo on 2/06/2019.
 //
 
-#ifndef SFMLAPP_JUEGO_H
-#define SFMLAPP_JUEGO_H
+#ifndef SFMLAPP_DIBUJOS_H
+#define SFMLAPP_DIBUJOS_H
 
 #include <SFML/Graphics.hpp>
 using namespace sf;
 using namespace std;
-class juego {
+class dibujos {
 private:
     int N_Jugadores;
     //tablero
@@ -36,7 +36,7 @@ private:
     RenderWindow * ventana_juego;
     int fps;
 public:
-    juego(int res_x, int res_y,string titulo, int N_Jugadores);
+    dibujos(int res_x, int res_y,string titulo, int N_Jugadores);
 
     //Funciones dibujar
 
@@ -52,7 +52,9 @@ public:
 
     void game_loop();
 
+    Sprite **getFicha(char);
+
 };
 
 
-#endif //SFMLAPP_JUEGO_H
+#endif //SFMLAPP_DIBUJOS_H

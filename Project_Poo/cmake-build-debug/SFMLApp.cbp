@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp">
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h">
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h">
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp">

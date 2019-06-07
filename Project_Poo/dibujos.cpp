@@ -2,9 +2,8 @@
 // Created by Renzo on 2/06/2019.
 //
 
-#include "juego.h"
-
-juego::juego(int res_x, int res_y, string titulo, int N_Jugadores) {
+#include "dibujos.h"
+dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 
     this->N_Jugadores = N_Jugadores;
     fps =60;
@@ -113,7 +112,7 @@ juego::juego(int res_x, int res_y, string titulo, int N_Jugadores) {
 
 }
 
-void juego::draw_game() {
+void dibujos::draw_game() {
 
     ventana_juego->clear();
 
@@ -122,16 +121,16 @@ void juego::draw_game() {
 
     //fichas
 
-    if (juego::getNJugadores()==2){
+    if (dibujos::getNJugadores()==2){
         dibujarAzul();
         dibujarAmarilla();
     }
-    if ( juego::getNJugadores()==3){
+    if ( dibujos::getNJugadores()==3){
         dibujarAzul();
         dibujarAmarilla();
         dibujarRojo();
     }
-    if ( juego::getNJugadores()==4){
+    if ( dibujos::getNJugadores()==4){
         dibujarAzul();
         dibujarAmarilla();
         dibujarRojo();
@@ -151,28 +150,28 @@ void juego::draw_game() {
 }
 
 //Establecer funciones dibujar
-void juego::dibujarAzul(){
+void dibujos::dibujarAzul(){
     ventana_juego->draw(*fichasAzules[0]);
     ventana_juego->draw(*fichasAzules[1]);
     ventana_juego->draw(*fichasAzules[2]);
     ventana_juego->draw(*fichasAzules[3]);
 }
 
-void juego::dibujarAmarilla() {
+void dibujos::dibujarAmarilla() {
     ventana_juego->draw(*fichasAmarillas[0]);
     ventana_juego->draw(*fichasAmarillas[1]);
     ventana_juego->draw(*fichasAmarillas[2]);
     ventana_juego->draw(*fichasAmarillas[3]);
 }
 
-void juego::dibujarRojo() {
+void dibujos::dibujarRojo() {
     ventana_juego->draw(*fichasRojas[0]);
     ventana_juego->draw(*fichasRojas[1]);
     ventana_juego->draw(*fichasRojas[2]);
     ventana_juego->draw(*fichasRojas[3]);
 }
 
-void juego::dibujarVerde() {
+void dibujos::dibujarVerde() {
     ventana_juego->draw(*fichasVerdes[0]);
     ventana_juego->draw(*fichasVerdes[1]);
     ventana_juego->draw(*fichasVerdes[2]);
@@ -180,7 +179,7 @@ void juego::dibujarVerde() {
 }
 
 //Loop
-void juego::game_loop() {
+void dibujos::game_loop() {
 
     while (ventana_juego->isOpen()) {
 
@@ -193,8 +192,17 @@ void juego::game_loop() {
     }
 }
 
-int juego::getNJugadores() const {
+int dibujos::getNJugadores() const {
     return N_Jugadores;
 }
 
-
+Sprite **dibujos::getFicha(char color) {
+    if (color=='R')
+        return fichasRojas;
+    if (color=='Y')
+        return fichasAmarillas;
+    if (color=='G')
+        return fichasVerdes;
+    if (color=='B')
+        return fichasAzules;
+}

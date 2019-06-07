@@ -122,32 +122,86 @@ SFMLApp/fast:
 	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/build
 .PHONY : SFMLApp/fast
 
-juego.obj: juego.cpp.obj
+Jugador.obj: Jugador.cpp.obj
 
-.PHONY : juego.obj
+.PHONY : Jugador.obj
 
 # target to build an object file
-juego.cpp.obj:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.obj
-.PHONY : juego.cpp.obj
+Jugador.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.obj
+.PHONY : Jugador.cpp.obj
 
-juego.i: juego.cpp.i
+Jugador.i: Jugador.cpp.i
 
-.PHONY : juego.i
+.PHONY : Jugador.i
 
 # target to preprocess a source file
-juego.cpp.i:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.i
-.PHONY : juego.cpp.i
+Jugador.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.i
+.PHONY : Jugador.cpp.i
 
-juego.s: juego.cpp.s
+Jugador.s: Jugador.cpp.s
 
-.PHONY : juego.s
+.PHONY : Jugador.s
 
 # target to generate assembly for a file
-juego.cpp.s:
-	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.s
-.PHONY : juego.cpp.s
+Jugador.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/Jugador.cpp.s
+.PHONY : Jugador.cpp.s
+
+dado.obj: dado.cpp.obj
+
+.PHONY : dado.obj
+
+# target to build an object file
+dado.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.obj
+.PHONY : dado.cpp.obj
+
+dado.i: dado.cpp.i
+
+.PHONY : dado.i
+
+# target to preprocess a source file
+dado.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.i
+.PHONY : dado.cpp.i
+
+dado.s: dado.cpp.s
+
+.PHONY : dado.s
+
+# target to generate assembly for a file
+dado.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dado.cpp.s
+.PHONY : dado.cpp.s
+
+dibujos.obj: dibujos.cpp.obj
+
+.PHONY : dibujos.obj
+
+# target to build an object file
+dibujos.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dibujos.cpp.obj
+.PHONY : dibujos.cpp.obj
+
+dibujos.i: dibujos.cpp.i
+
+.PHONY : dibujos.i
+
+# target to preprocess a source file
+dibujos.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dibujos.cpp.i
+.PHONY : dibujos.cpp.i
+
+dibujos.s: dibujos.cpp.s
+
+.PHONY : dibujos.s
+
+# target to generate assembly for a file
+dibujos.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dibujos.cpp.s
+.PHONY : dibujos.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -212,9 +266,15 @@ help:
 	@echo ... SFMLApp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... juego.obj
-	@echo ... juego.i
-	@echo ... juego.s
+	@echo ... Jugador.obj
+	@echo ... Jugador.i
+	@echo ... Jugador.s
+	@echo ... dado.obj
+	@echo ... dado.i
+	@echo ... dado.s
+	@echo ... dibujos.obj
+	@echo ... dibujos.i
+	@echo ... dibujos.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

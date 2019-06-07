@@ -70,19 +70,19 @@ CMakeFiles/SFMLApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\main.cpp -o CMakeFiles\SFMLApp.dir\main.cpp.s
 
-CMakeFiles/SFMLApp.dir/juego.cpp.obj: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/juego.cpp.obj: CMakeFiles/SFMLApp.dir/includes_CXX.rsp
-CMakeFiles/SFMLApp.dir/juego.cpp.obj: ../juego.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLApp.dir/juego.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SFMLApp.dir\juego.cpp.obj -c C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\juego.cpp
+CMakeFiles/SFMLApp.dir/dibujos.cpp.obj: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/dibujos.cpp.obj: CMakeFiles/SFMLApp.dir/includes_CXX.rsp
+CMakeFiles/SFMLApp.dir/dibujos.cpp.obj: ../dibujos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLApp.dir/dibujos.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SFMLApp.dir\dibujos.cpp.obj -c C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\dibujos.cpp
 
-CMakeFiles/SFMLApp.dir/juego.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/juego.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\juego.cpp > CMakeFiles\SFMLApp.dir\juego.cpp.i
+CMakeFiles/SFMLApp.dir/dibujos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/dibujos.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\dibujos.cpp > CMakeFiles\SFMLApp.dir\dibujos.cpp.i
 
-CMakeFiles/SFMLApp.dir/juego.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/juego.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\juego.cpp -o CMakeFiles\SFMLApp.dir\juego.cpp.s
+CMakeFiles/SFMLApp.dir/dibujos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/dibujos.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\dibujos.cpp -o CMakeFiles\SFMLApp.dir\dibujos.cpp.s
 
 CMakeFiles/SFMLApp.dir/recorrido.cpp.obj: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/recorrido.cpp.obj: CMakeFiles/SFMLApp.dir/includes_CXX.rsp
@@ -98,18 +98,50 @@ CMakeFiles/SFMLApp.dir/recorrido.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/recorrido.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\recorrido.cpp -o CMakeFiles\SFMLApp.dir\recorrido.cpp.s
 
+CMakeFiles/SFMLApp.dir/Jugador.cpp.obj: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Jugador.cpp.obj: CMakeFiles/SFMLApp.dir/includes_CXX.rsp
+CMakeFiles/SFMLApp.dir/Jugador.cpp.obj: ../Jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SFMLApp.dir/Jugador.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SFMLApp.dir\Jugador.cpp.obj -c C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\Jugador.cpp
+
+CMakeFiles/SFMLApp.dir/Jugador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Jugador.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\Jugador.cpp > CMakeFiles\SFMLApp.dir\Jugador.cpp.i
+
+CMakeFiles/SFMLApp.dir/Jugador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Jugador.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\Jugador.cpp -o CMakeFiles\SFMLApp.dir\Jugador.cpp.s
+
+CMakeFiles/SFMLApp.dir/dado.cpp.obj: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/dado.cpp.obj: CMakeFiles/SFMLApp.dir/includes_CXX.rsp
+CMakeFiles/SFMLApp.dir/dado.cpp.obj: ../dado.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SFMLApp.dir/dado.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SFMLApp.dir\dado.cpp.obj -c C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\dado.cpp
+
+CMakeFiles/SFMLApp.dir/dado.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/dado.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\dado.cpp > CMakeFiles\SFMLApp.dir\dado.cpp.i
+
+CMakeFiles/SFMLApp.dir/dado.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/dado.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\dado.cpp -o CMakeFiles\SFMLApp.dir\dado.cpp.s
+
 # Object files for target SFMLApp
 SFMLApp_OBJECTS = \
 "CMakeFiles/SFMLApp.dir/main.cpp.obj" \
-"CMakeFiles/SFMLApp.dir/juego.cpp.obj" \
-"CMakeFiles/SFMLApp.dir/recorrido.cpp.obj"
+"CMakeFiles/SFMLApp.dir/dibujos.cpp.obj" \
+"CMakeFiles/SFMLApp.dir/recorrido.cpp.obj" \
+"CMakeFiles/SFMLApp.dir/Jugador.cpp.obj" \
+"CMakeFiles/SFMLApp.dir/dado.cpp.obj"
 
 # External object files for target SFMLApp
 SFMLApp_EXTERNAL_OBJECTS =
 
 SFMLApp.exe: CMakeFiles/SFMLApp.dir/main.cpp.obj
-SFMLApp.exe: CMakeFiles/SFMLApp.dir/juego.cpp.obj
+SFMLApp.exe: CMakeFiles/SFMLApp.dir/dibujos.cpp.obj
 SFMLApp.exe: CMakeFiles/SFMLApp.dir/recorrido.cpp.obj
+SFMLApp.exe: CMakeFiles/SFMLApp.dir/Jugador.cpp.obj
+SFMLApp.exe: CMakeFiles/SFMLApp.dir/dado.cpp.obj
 SFMLApp.exe: CMakeFiles/SFMLApp.dir/build.make
 SFMLApp.exe: C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/libsfml-graphics-d.a
 SFMLApp.exe: C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/libsfml-window-d.a
@@ -117,7 +149,7 @@ SFMLApp.exe: C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw
 SFMLApp.exe: CMakeFiles/SFMLApp.dir/linklibs.rsp
 SFMLApp.exe: CMakeFiles/SFMLApp.dir/objects1.rsp
 SFMLApp.exe: CMakeFiles/SFMLApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SFMLApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Usuario\Documents\GitHub\Proyecto-Poo2\Project_Poo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SFMLApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SFMLApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

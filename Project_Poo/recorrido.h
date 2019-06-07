@@ -22,6 +22,7 @@ public:
     int **getRecorridoverde() const;
 
     int **getRecorridorojo() const;
+
 };
 
 #endif

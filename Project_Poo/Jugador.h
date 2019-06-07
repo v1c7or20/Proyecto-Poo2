@@ -5,19 +5,30 @@
 #ifndef PROYECTO_POO2_JUGADOR_H
 #define PROYECTO_POO2_JUGADOR_H
 
-
-#include "ficha.h"
+#include "recorrido.h"
+#include "dibujos.h"
+#include "dado.h"
 
 class Jugador {
 protected:
-    int numero;
-    ficha *fichas;
+    int *poscicion;
+    Sprite **fichas;
+    char color;
+    int **recorrido;
 public:
-    Jugador(int numero);
+    Jugador(int *poscicion, Sprite **fichas,char color, int **recorrido);
 
-    int getNumero() const;
+    int *getPoscicion() const;
 
-    ficha *getFichas() const;
+    Sprite **getFichas() const;
+
+    char getColor() const;
+
+    void dibujar(int id_Ficha);
+
+    void setPositionFicha(int id_Ficha);
+
+    void lanzar_dado(dado *dado_juego,int id_Ficha);
 };
 
 
