@@ -203,6 +203,33 @@ dibujos.cpp.s:
 	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/dibujos.cpp.s
 .PHONY : dibujos.cpp.s
 
+juego.obj: juego.cpp.obj
+
+.PHONY : juego.obj
+
+# target to build an object file
+juego.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.obj
+.PHONY : juego.cpp.obj
+
+juego.i: juego.cpp.i
+
+.PHONY : juego.i
+
+# target to preprocess a source file
+juego.cpp.i:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.i
+.PHONY : juego.cpp.i
+
+juego.s: juego.cpp.s
+
+.PHONY : juego.s
+
+# target to generate assembly for a file
+juego.cpp.s:
+	$(MAKE) -f CMakeFiles\SFMLApp.dir\build.make CMakeFiles/SFMLApp.dir/juego.cpp.s
+.PHONY : juego.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -275,6 +302,9 @@ help:
 	@echo ... dibujos.obj
 	@echo ... dibujos.i
 	@echo ... dibujos.s
+	@echo ... juego.obj
+	@echo ... juego.i
+	@echo ... juego.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -18,5 +18,5 @@ if(SFML_FOUND)
     message(STATUS "SFML_VERSION: ${SFML_VERSION}")
 endif()
 
-add_executable(SFMLApp main.cpp dibujos.cpp recorrido.cpp Jugador.cpp dado.cpp)
+add_executable(SFMLApp main.cpp dibujos.cpp recorrido.cpp Jugador.cpp dado.cpp juego.cpp juego.h)
 target_link_libraries (SFMLApp sfml-graphics sfml-window sfml-system)

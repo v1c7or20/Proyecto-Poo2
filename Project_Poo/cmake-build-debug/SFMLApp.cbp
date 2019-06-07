@@ -102,6 +102,12 @@
 		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h">
 			<Option target="SFMLApp"/>
 		</Unit>
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h">
+			<Option target="SFMLApp"/>
+		</Unit>
 		<Unit filename="C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
