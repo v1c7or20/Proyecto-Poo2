@@ -197,7 +197,7 @@ void dibujos::game_loop() {
     int N= getNJugadores();
     Jugador **jugadores = new Jugador*[N];
     for (int i=0;i<N;i++){
-        jugadores[i] = new Jugador(,getFicha('B'),'B',recorridoJuego->getRecorridoazul());
+        jugadores[i] = new Jugador(posiciones(fichasAzules),getFicha('B'),'B',recorridoJuego->getRecorridoazul());
     }
 
     while (ventana_juego->isOpen()) {
