@@ -193,13 +193,6 @@ float **dibujos::posiciones(Sprite** ficha){
 
 //Loop
 void dibujos::game_loop() {
-    recorrido *recorridoJuego= new recorrido();
-    int N= getNJugadores();
-    Jugador **jugadores = new Jugador*[N];
-    //falta completar 
-    for (int i=0;i<N;i++){
-        jugadores[i] = new Jugador(posiciones(fichasAzules),getFicha('B'),'B',recorridoJuego->getRecorridoazul());
-    }
 
     while (ventana_juego->isOpen()) {
         Event event;
@@ -213,7 +206,6 @@ void dibujos::game_loop() {
 int dibujos::getNJugadores() const {
     return N_Jugadores;
 }
-
 
 Sprite **dibujos::getFicha(char color) {
     if (color=='R')
