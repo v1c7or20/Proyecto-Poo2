@@ -1,1 +1,1 @@
--IC:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/SFML_INCLUDE_DIR -isystem C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/include 
+-I"C:/Users/Mauricio Rodriguez/GitHub/Proyecto-Poo2/Project_Poo/SFML_INCLUDE_DIR" -isystem C:/Users/MAURIC~1/Music/SFML-2~1.1/include 

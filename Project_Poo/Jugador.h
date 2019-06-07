@@ -11,14 +11,17 @@
 
 class Jugador {
 protected:
-    int *poscicion;
+    int posicionX;
+    int posicionY;
     Sprite **fichas;
     char color;
     int **recorrido;
 public:
-    Jugador(int *poscicion, Sprite **fichas,char color, int **recorrido);
+    Jugador(int posicionX,int posicionY, Sprite **fichas,char color, int **recorrido);
 
-    int *getPoscicion() const;
+    int getPosicionX() const;
+
+    int getPosicionY() const;
 
     Sprite **getFichas() const;
 

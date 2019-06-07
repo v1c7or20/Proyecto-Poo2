@@ -4,11 +4,15 @@
 
 #include "Jugador.h"
 
-Jugador::Jugador(int *poscicion, Sprite **fichas,char color, int **recorrido)
-: poscicion(poscicion), fichas(fichas),color(color),recorrido(recorrido) {}
+Jugador::Jugador(int posicionX,int posicionY, Sprite **fichas,char color, int **recorrido)
+: posicionX(posicionX),posicionY(posicionY),fichas(fichas),color(color),recorrido(recorrido) {}
 
-int *Jugador::getPoscicion() const {
-    return poscicion;
+int Jugador::getPosicionX() const {
+    return posicionX;
+}
+
+int Jugador::getPosicionY() const {
+    return posicionY;
 }
 
 Sprite **Jugador::getFichas() const {
@@ -20,7 +24,7 @@ char Jugador::getColor() const {
 }
 
 void Jugador::dibujar(int id_Ficha) {
-    fichas[id_Ficha]->setPosition(recorrido[poscicion[id_Ficha]][0],recorrido[poscicion[id_Ficha]][2]);
+    fichas[id_Ficha]->setPosition(recorrido[posicionX[id_Ficha]][0],recorrido[posicionY[id_Ficha]][2]);
 }
 
 void Jugador::setPositionFicha(int id_Ficha) {
@@ -29,6 +33,6 @@ void Jugador::setPositionFicha(int id_Ficha) {
 
 void Jugador::lanzar_dado(dado *dado_juego,int id_Ficha) {
     int avance = dado_juego->lanzar();
-    poscicion[id_Ficha]+=avance;
+
 }
 

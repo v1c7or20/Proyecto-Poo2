@@ -3,6 +3,7 @@
 //
 
 #include "dibujos.h"
+#include "Jugador.h"
 dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 
     this->N_Jugadores = N_Jugadores;
@@ -113,7 +114,6 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 }
 
 void dibujos::draw_game() {
-
     ventana_juego->clear();
 
     //Tablero
@@ -143,7 +143,7 @@ void dibujos::draw_game() {
     if (Keyboard::isKeyPressed(Keyboard::Num6)) {
         fichasAzules[0]->setPosition(xf1, yf1 = 235);
     if (Keyboard::isKeyPressed(Keyboard::Right))
-        fichasAzules[0]->setPosition(xf1+=50,yf1);
+        fichasAzules[0]->setPosition(xf1+=40,yf1);
     }
 
 
@@ -182,7 +182,6 @@ void dibujos::dibujarVerde() {
 void dibujos::game_loop() {
 
     while (ventana_juego->isOpen()) {
-
         Event event;
         while (ventana_juego->pollEvent(event)) {
             draw_game();
@@ -191,7 +190,6 @@ void dibujos::game_loop() {
         }
     }
 }
-
 int dibujos::getNJugadores() const {
     return N_Jugadores;
 }
