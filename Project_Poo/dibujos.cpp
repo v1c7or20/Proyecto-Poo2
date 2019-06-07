@@ -182,7 +182,7 @@ void dibujos::dibujarVerde() {
 float **dibujos::posiciones(Sprite** ficha){
     auto **coleccion_posiciones= new float*[4];
     for (int i=0;i<4;i++){
-        coleccion_posiciones[4]= new float[2];
+        coleccion_posiciones[i]= new float[2];
         for(int j=0;j<2;j++){
             coleccion_posiciones[i][j]= ficha[i]->getPosition().x;
             coleccion_posiciones[i][j]= ficha[i]->getPosition().y;
