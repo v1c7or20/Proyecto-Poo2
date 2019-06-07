@@ -24,7 +24,6 @@ char Jugador::getColor() const {
 }
 
 void Jugador::dibujar(int id_Ficha) {
-    fichas[id_Ficha]->setPosition(recorrido[posicionX[id_Ficha]][0],recorrido[posicionY[id_Ficha]][2]);
 }
 
 void Jugador::setPositionFicha(int id_Ficha) {

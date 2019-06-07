@@ -4,6 +4,7 @@
 
 #include "dibujos.h"
 #include "Jugador.h"
+#include "recorrido.h"
 dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 
     this->N_Jugadores = N_Jugadores;
@@ -124,6 +125,7 @@ void dibujos::draw_game() {
     if (dibujos::getNJugadores()==2){
         dibujarAzul();
         dibujarAmarilla();
+
     }
     if ( dibujos::getNJugadores()==3){
         dibujarAzul();
@@ -180,6 +182,8 @@ void dibujos::dibujarVerde() {
 
 //Loop
 void dibujos::game_loop() {
+    recorrido *recorridoJuego= new recorrido();
+    Jugador **jugadores = new Jugador*[4];
 
     while (ventana_juego->isOpen()) {
         Event event;
@@ -192,6 +196,10 @@ void dibujos::game_loop() {
 }
 int dibujos::getNJugadores() const {
     return N_Jugadores;
+}
+auto dibujos::getPosition(Sprite **fichas,int num) {
+    num=-1;
+    return fichas[num]->getPosition().x;
 }
 
 Sprite **dibujos::getFicha(char color) {
