@@ -184,7 +184,6 @@ void dibujos::dibujarVerde() {
 void dibujos::game_loop() {
     recorrido *recorridoJuego= new recorrido();
     Jugador **jugadores = new Jugador*[4];
-
     while (ventana_juego->isOpen()) {
         Event event;
         while (ventana_juego->pollEvent(event)) {
@@ -197,9 +196,13 @@ void dibujos::game_loop() {
 int dibujos::getNJugadores() const {
     return N_Jugadores;
 }
-auto dibujos::getPosition(Sprite **fichas,int num) {
+auto dibujos::getXPosition(Sprite **fichas,int num) {
     num=-1;
     return fichas[num]->getPosition().x;
+}
+auto dibujos::getYPosition(Sprite **fichas,int num) {
+    num=-1;
+    return fichas[num]->getPosition().y;
 }
 
 Sprite **dibujos::getFicha(char color) {

@@ -53,7 +53,8 @@ public:
     void game_loop();
 
     Sprite **getFicha(char);
-    auto getPosition(Sprite** fichas,int num);
+    auto getXPosition(Sprite** fichas,int num);
+    auto getYPosition(Sprite** fichas,int num);
 };
 
 
