@@ -4,16 +4,9 @@
 
 #include "Jugador.h"
 
-Jugador::Jugador(int posicionX,int posicionY, Sprite **fichas,char color, int **recorrido)
-: posicionX(posicionX),posicionY(posicionY),fichas(fichas),color(color),recorrido(recorrido) {}
+Jugador::Jugador(float **poiciones, Sprite **fichas,char color, int **recorrido)
+: posiciones(posiciones),fichas(fichas),color(color),recorrido(recorrido) {}
 
-int Jugador::getPosicionX() const {
-    return posicionX;
-}
-
-int Jugador::getPosicionY() const {
-    return posicionY;
-}
 
 Sprite **Jugador::getFichas() const {
     return fichas;

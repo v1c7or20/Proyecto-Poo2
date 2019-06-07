@@ -179,7 +179,7 @@ void dibujos::dibujarVerde() {
     ventana_juego->draw(*fichasVerdes[2]);
     ventana_juego->draw(*fichasVerdes[3]);
 }
-float **dibujos::Posiciones(Sprite** ficha){
+float **dibujos::posiciones(Sprite** ficha){
     auto **coleccion_posiciones= new float*[4];
     for (int i=0;i<4;i++){
         coleccion_posiciones[4]= new float[2];
@@ -197,7 +197,7 @@ void dibujos::game_loop() {
     int N= getNJugadores();
     Jugador **jugadores = new Jugador*[N];
     for (int i=0;i<N;i++){
-        jugadores[i] = new Jugador(10,10,getFicha('B'),'B',recorridoJuego->getRecorridoazul());
+        jugadores[i] = new Jugador(,getFicha('B'),'B',recorridoJuego->getRecorridoazul());
     }
 
     while (ventana_juego->isOpen()) {

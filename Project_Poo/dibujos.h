@@ -53,7 +53,7 @@ public:
     void game_loop();
 
     Sprite **getFicha(char);
-    float **Posiciones(Sprite**);
+    float **posiciones(Sprite**);
 };
 
 
