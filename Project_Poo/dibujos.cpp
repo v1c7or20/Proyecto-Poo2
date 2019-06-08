@@ -73,41 +73,41 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 
     //Posiciones
         //Ficha Azul
-    float xf1=130,yf1=50;
+    float xf1=140,yf1=45;
     fichasAzules[0]->setPosition(xf1,yf1);
             //Ficha 2
-    fichasAzules[1]->setPosition(230,50);
+    fichasAzules[1]->setPosition(240,45);
             //Ficha 2
-    fichasAzules[2]->setPosition(230,150);
+    fichasAzules[2]->setPosition(240,145);
             //Ficha 2
-    fichasAzules[3]->setPosition(130,150);
+    fichasAzules[3]->setPosition(140,145);
     
         //Ficha Verde
-    fichasVerdes[0]->setPosition(520,500);
+    fichasVerdes[0]->setPosition(500,505);
     //Ficha 2
-    fichasVerdes[1]->setPosition(620,500);
+    fichasVerdes[1]->setPosition(600,505);
     //Ficha 2
-    fichasVerdes[2]->setPosition(520,400);
+    fichasVerdes[2]->setPosition(500,405);
     //Ficha 2
-    fichasVerdes[3]->setPosition(620,400);
+    fichasVerdes[3]->setPosition(600,405);
 
         //Ficha Rojo
-    fichasRojas[0]->setPosition(130,500);
+    fichasRojas[0]->setPosition(140,505);
     //Ficha 2
-    fichasRojas[1]->setPosition(230,500);
+    fichasRojas[1]->setPosition(240,505);
     //Ficha 2
-    fichasRojas[2]->setPosition(230,400);
+    fichasRojas[2]->setPosition(240,405);
     //Ficha 2
-    fichasRojas[3]->setPosition(130,400);
+    fichasRojas[3]->setPosition(140,405);
     
         //Ficha Amarilla
-    fichasAmarillas[0]->setPosition(520,50);
+    fichasAmarillas[0]->setPosition(500,45);
     //Ficha 2
-    fichasAmarillas[1]->setPosition(620,50);
+    fichasAmarillas[1]->setPosition(600,45);
     //Ficha 2
-    fichasAmarillas[2]->setPosition(620,150);
+    fichasAmarillas[2]->setPosition(600,145);
     //Ficha 2
-    fichasAmarillas[3]->setPosition(520,150);
+    fichasAmarillas[3]->setPosition(500,145);
 
 
     game_loop();
@@ -124,7 +124,7 @@ void dibujos::draw_game() {
 
     if (dibujos::getNJugadores()==2){
         dibujarAzul();
-        dibujarAmarilla();
+        dibujarVerde();
 
     }
     if ( dibujos::getNJugadores()==3){
@@ -141,12 +141,14 @@ void dibujos::draw_game() {
     //Display
     ventana_juego->display();
 
-    float xf1=130,yf1;
-    if (Keyboard::isKeyPressed(Keyboard::Num6)) {
-        fichasAzules[0]->setPosition(xf1, yf1 = 235);
-    if (Keyboard::isKeyPressed(Keyboard::Right))
-        fichasAzules[0]->setPosition(xf1+=40,yf1);
+    //Posicion de la primera casilla azul
+    float xf1=130,yf1=235;
+    if (Keyboard::isKeyPressed(Keyboard::Num6))
+        fichasAzules[0]->setPosition(xf1, yf1);
+    if (Keyboard::isKeyPressed(Keyboard::Right)) {
+        fichasAzules[0]->setPosition(xf1+40, yf1);
     }
+
 
 
 }
