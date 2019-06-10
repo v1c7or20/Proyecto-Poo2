@@ -8,112 +8,112 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SFMLApp">
-				<Option output="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/SFMLApp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
+				<Option output="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/SFMLApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SFMLApp/fast">
-				<Option output="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/SFMLApp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
+				<Option output="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/SFMLApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.cpp">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/CMakeLists.txt">
+		<Unit filename="C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
