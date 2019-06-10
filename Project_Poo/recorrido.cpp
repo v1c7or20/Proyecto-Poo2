@@ -4,6 +4,10 @@
 
 #include "recorrido.h"
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* getters en caso de creacion manual */
+
 int **recorrido::getRecorridoazul() const {
     return recorridoazul;
 }
@@ -19,6 +23,24 @@ int **recorrido::getRecorridoverde() const {
 int **recorrido::getRecorridorojo() const {
     return recorridorojo;
 }
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//regresa el recorrido dependiete del color elegido
+
+int **recorrido::getRecorridocolor(char color) {
+    if (color=='R')
+        return recorridorojo;
+    if (color=='Y')
+        return recorridoamarillo;
+    if (color=='G')
+        return recorridoverde;
+    if (color=='B')
+        return recorridoverde;
+}
+
+/*crea los posibles recorridos de las fichas basado en las coordenadas
+  para cada inicio de pieza */
 
 recorrido::recorrido() {
     recorridoazul=new int*[62];

@@ -12,7 +12,7 @@ class dibujos {
 private:
     int N_Jugadores;
     //tablero
-    Texture * tablero;2
+    Texture * tablero;
     Sprite * tablero_fondo;
     //Fichas
         //ficha Azul

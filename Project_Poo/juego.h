@@ -9,7 +9,21 @@
 
 
 class juego {
+protected:
     Jugador **jugadores;
+    int numero_jugadores;
+    dibujos *dibujo;
+    recorrido *recorridos;
+public:
+    juego(int num_jugadores);
+
+    bool comprobarcasillas();
+
+    bool comprobarjugadores();
+
+    void next_turn();
+
+    
 };
 
 

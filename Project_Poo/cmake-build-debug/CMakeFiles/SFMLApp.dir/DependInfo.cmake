@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp" "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/Jugador.cpp.obj"
-  "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp" "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/dado.cpp.obj"
-  "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp" "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/dibujos.cpp.obj"
-  "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp" "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/juego.cpp.obj"
-  "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp" "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/main.cpp.obj"
-  "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.cpp" "C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/recorrido.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/Jugador.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/dado.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/dibujos.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/juego.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/main.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/recorrido.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

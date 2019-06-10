@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include "dibujos.h"
+#include "juego.h"
 
 using namespace sf;
 using namespace std;
@@ -14,5 +14,5 @@ int main(){
             cout << "El numero de jugadores debe ser entre 2 y 4." << endl;
 
     } while (N_Jugadores > 4 or N_Jugadores == 1);
-    dibujos *partida1 = new dibujos(800, 600, "Ludo", N_Jugadores);
+    juego *partida1 = new juego (N_Jugadores);
 }

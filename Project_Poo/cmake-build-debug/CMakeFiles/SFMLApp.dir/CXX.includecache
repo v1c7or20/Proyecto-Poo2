@@ -6,47 +6,35 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp
-Jugador.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
-
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
 recorrido.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
 dibujos.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
 dado.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
 
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
 
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp
-dibujos.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
-Jugador.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
-recorrido.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
-
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
 SFML/Graphics.hpp
 -
 
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp
 juego.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
 
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
 Jugador.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
 
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
 SFML/Graphics.hpp
 -
 iostream
 -
-dibujos.h
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
+juego.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
 
-C:/Users/saidchoquehuanca/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
 

@@ -146,7 +146,7 @@ void dibujos::draw_game() {
     if (Keyboard::isKeyPressed(Keyboard::Num6))
         fichasAzules[0]->setPosition(xf1, yf1);
     if (Keyboard::isKeyPressed(Keyboard::Right)) {
-        fichasAzules[0]->setPosition(xf1+40, yf1);
+        fichasAzules[0]->setPosition(fichasAzules[0]->getPosition().x+40, yf1);
     }
 
 

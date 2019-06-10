@@ -23,8 +23,12 @@ CMakeFiles/SFMLApp.dir/juego.cpp.obj: ../juego.cpp
 CMakeFiles/SFMLApp.dir/juego.cpp.obj: ../juego.h
 CMakeFiles/SFMLApp.dir/juego.cpp.obj: ../recorrido.h
 
+CMakeFiles/SFMLApp.dir/main.cpp.obj: ../Jugador.h
+CMakeFiles/SFMLApp.dir/main.cpp.obj: ../dado.h
 CMakeFiles/SFMLApp.dir/main.cpp.obj: ../dibujos.h
+CMakeFiles/SFMLApp.dir/main.cpp.obj: ../juego.h
 CMakeFiles/SFMLApp.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/SFMLApp.dir/main.cpp.obj: ../recorrido.h
 
 CMakeFiles/SFMLApp.dir/recorrido.cpp.obj: ../recorrido.cpp
 CMakeFiles/SFMLApp.dir/recorrido.cpp.obj: ../recorrido.h

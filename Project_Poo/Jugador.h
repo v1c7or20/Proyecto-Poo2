@@ -11,20 +11,19 @@
 
 class Jugador {
 protected:
-    float** posiciones;
+    int * posiciones;
     Sprite **fichas;
     char color;
-    int **recorrido;
+    int **recorrido_fichas;
+    int  startpos[4][2];
 public:
-    Jugador(float**posiciones, Sprite **fichas,char color, int **recorrido);
+    Jugador( dibujos *_dibujos,char color, recorrido *recorridos);
 
     Sprite **getFichas() const;
 
     char getColor() const;
 
-    void dibujar(int id_Ficha);
-
-    void setPositionFicha(int id_Ficha);
+    int **getRecorridoFichas() const;
 
     void lanzar_dado(dado *dado_juego,int id_Ficha);
 };

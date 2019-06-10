@@ -23,6 +23,9 @@ public:
 
     int **getRecorridorojo() const;
 
+    int **getRecorridocolor(char color);
+
+
 };
 
 #endif
