@@ -13,3 +13,4 @@ dado::dado() {
 int dado::lanzar() {
     return rand()%6+1;
 }
+

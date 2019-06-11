@@ -6,6 +6,7 @@ using namespace sf;
 using namespace std;
 
 int main(){
+    
     int N_Jugadores = 0;
     do {
         cout << "Ingrese numero de jugadores: " << endl;
