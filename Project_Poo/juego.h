@@ -16,8 +16,11 @@ protected:
     recorrido *recorridos;
     int turno=0;
     Jugador **orden;
+    dado *dados;
 public:
     juego(int num_jugadores);
+
+    bool comprobar_repeticiones(Jugador *jugador);
 
     bool comprobarcasillas();
 

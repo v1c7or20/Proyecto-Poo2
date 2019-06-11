@@ -8,6 +8,7 @@ juego::juego(int num_jugadores):numero_jugadores(num_jugadores) {
     dibujo=new dibujos(800,600,"Ludo",num_jugadores);
     jugadores = new Jugador*[num_jugadores];
     recorridos=new recorrido();
+    dados = new dado();
    if(num_jugadores==2){
        jugadores[0]=new Jugador(dibujo,'B',recorridos);
        jugadores[1]=new Jugador(dibujo,'G',recorridos);
@@ -45,10 +46,29 @@ bool juego::comprobarcasillas() {
 bool juego::comprobarjugadores() {
     return false;
 }
-/* flata
+
 void juego::next_turn() {
-    int selected;
+    int selected, actual;
     std::cin>>selected;
-    jugadores
+    actual = turno%4;
+    jugadores[actual]->lanzar_dado(dados,selected);
+    comprobar_repeticiones(jugadores[actual]);
+    if(jugadores[actual]->isCanplay()){
+        if(jugadores[actual]->getLast()!=6) {
+            turno += 1;
+        }
+        else jugadores[actual]->setRepeticion(jugadores[actual]->getRepeticion()+1);
+    }
+    else turno +=1;
+
 }
-*/
+
+bool juego::comprobar_repeticiones(Jugador *jugador) {
+    if(jugador->getRepeticion()==3){
+        jugador->setRepeticion(0);
+        jugador->setCanplay(false);
+    }
+    if(!(jugador->isCanplay())){
+        jugador->setCanplay(true);
+    }
+}

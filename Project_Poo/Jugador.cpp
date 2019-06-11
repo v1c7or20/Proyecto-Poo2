@@ -48,3 +48,19 @@ int Jugador::getLast() const {
     return last;
 }
 
+int Jugador::getRepeticion() const {
+    return repeticion;
+}
+
+void Jugador::setRepeticion(int repeticion) {
+    Jugador::repeticion = repeticion;
+}
+
+bool Jugador::isCanplay() const {
+    return canplay;
+}
+
+void Jugador::setCanplay(bool canplay) {
+    Jugador::canplay = canplay;
+}
+
