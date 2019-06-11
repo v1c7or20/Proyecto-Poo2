@@ -40,6 +40,8 @@ public:
 
     bool isCanplay() const;
 
+    void dibuja_avance(int id_Ficha);
+
     void setCanplay(bool canplay);
 };
 

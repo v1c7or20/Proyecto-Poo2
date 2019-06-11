@@ -56,12 +56,19 @@ void juego::next_turn() {
     if(jugadores[actual]->isCanplay()){
         if(jugadores[actual]->getLast()!=6) {
             turno += 1;
+            jugadores[actual]->dibuja_avance(selected);
+            jugadores[actual]->setRepeticion(0);
         }
-        else jugadores[actual]->setRepeticion(jugadores[actual]->getRepeticion()+1);
+        else{
+            jugadores[actual]->dibuja_avance(selected);
+            jugadores[actual]->setRepeticion(jugadores[actual]->getRepeticion()+1);
+        }
     }
     else turno +=1;
 
 }
+
+
 
 bool juego::comprobar_repeticiones(Jugador *jugador) {
     if(jugador->getRepeticion()==3){
