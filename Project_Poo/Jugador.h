@@ -16,6 +16,8 @@ protected:
     char color;
     int **recorrido_fichas;
     int  startpos[4][2];
+    int repeticion=0;
+    int last;
 public:
     Jugador( dibujos *_dibujos,char color, recorrido *recorridos);
 
@@ -26,6 +28,10 @@ public:
     int **getRecorridoFichas() const;
 
     void lanzar_dado(dado *dado_juego,int id_Ficha);
+
+    void setLast(int last);
+
+    int getLast() const;
 };
 
 

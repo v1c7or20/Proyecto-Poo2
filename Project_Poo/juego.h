@@ -14,6 +14,8 @@ protected:
     int numero_jugadores;
     dibujos *dibujo;
     recorrido *recorridos;
+    int turno=0;
+    Jugador **orden;
 public:
     juego(int num_jugadores);
 
@@ -23,7 +25,7 @@ public:
 
     void next_turn();
 
-    
+
 };
 
 

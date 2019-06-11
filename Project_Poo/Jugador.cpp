@@ -27,13 +27,24 @@ char Jugador::getColor() const {
 }
 
 void Jugador::lanzar_dado(dado *dado_juego,int id_Ficha) {
-    int avance = dado_juego->lanzar();
-    posiciones[id_Ficha]=posiciones[id_Ficha]+avance;
+    last = dado_juego->lanzar();
+    posiciones[id_Ficha]=posiciones[id_Ficha]+last;
     int temp=posiciones[id_Ficha];
+/*    for (int i = 0; i < last; i++) {
+        fichas[id_Ficha]->setPosition();
+    }   */
     fichas[id_Ficha]->setPosition(recorrido_fichas[temp][0],recorrido_fichas[temp][1]);
 }
 
 int **Jugador::getRecorridoFichas() const {
     return recorrido_fichas;
+}
+
+void Jugador::setLast(int last) {
+    Jugador::last = last;
+}
+
+int Jugador::getLast() const {
+    return last;
 }
 
