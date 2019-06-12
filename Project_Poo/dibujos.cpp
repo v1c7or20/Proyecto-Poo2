@@ -73,45 +73,45 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
         fichasAmarillas[i]= new Sprite(*fichaAmarilla);
     }
     //Posiciones
-        //Dado
-
-
-
-        //Ficha Azul
+     //Ficha Azul
+            //Ficha 1
     float xf1=140,yf1=45;
     fichasAzules[0]->setPosition(xf1,yf1);
             //Ficha 2
     fichasAzules[1]->setPosition(240,45);
-            //Ficha 2
+            //Ficha 3
     fichasAzules[2]->setPosition(240,145);
-            //Ficha 2
+            //Ficha 4
     fichasAzules[3]->setPosition(140,145);
     
-        //Ficha Verde
+     //Ficha Verde
+        //Ficha 1
     fichasVerdes[0]->setPosition(500,505);
-    //Ficha 2
+        //Ficha 2
     fichasVerdes[1]->setPosition(600,505);
-    //Ficha 2
+        //Ficha 3
     fichasVerdes[2]->setPosition(500,405);
-    //Ficha 2
+        //Ficha 4
     fichasVerdes[3]->setPosition(600,405);
 
-        //Ficha Rojo
-    fichasRojas[0]->setPosition(140,505);
-    //Ficha 2
+     //Ficha Rojo
+        //Ficha 1
+     fichasRojas[0]->setPosition(140,505);
+        //Ficha 2
     fichasRojas[1]->setPosition(240,505);
-    //Ficha 2
+        //Ficha 3
     fichasRojas[2]->setPosition(240,405);
-    //Ficha 2
+        //Ficha 4
     fichasRojas[3]->setPosition(140,405);
     
-        //Ficha Amarilla
-    fichasAmarillas[0]->setPosition(500,45);
-    //Ficha 2
+     //Ficha Amarilla
+        //Ficha 1
+        fichasAmarillas[0]->setPosition(500,45);
+        //Ficha 2
     fichasAmarillas[1]->setPosition(600,45);
-    //Ficha 2
+        //Ficha 3
     fichasAmarillas[2]->setPosition(600,145);
-    //Ficha 2
+        //Ficha 4
     fichasAmarillas[3]->setPosition(500,145);
 
 
