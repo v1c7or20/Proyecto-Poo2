@@ -1,10 +1,12 @@
 //
 // Created by Renzo on 2/06/2019.
 //
-
+#include <stdlib.h>
+#include <time.h>
 #include "dibujos.h"
 #include "Jugador.h"
 #include "recorrido.h"
+
 dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 
     this->N_Jugadores = N_Jugadores;
@@ -100,7 +102,9 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 
     //Posiciones
         //Dado
-    dados[0]->setPosition(710,45);
+
+
+
         //Ficha Azul
     float xf1=140,yf1=45;
     fichasAzules[0]->setPosition(xf1,yf1);
@@ -148,8 +152,37 @@ void dibujos::draw_game() {
 
     //Tablero
     ventana_juego->draw(*tablero_fondo);
+
     //Dado
-    ventana_juego->draw(*dados[0]);
+    srand(time(NULL));
+    if (Keyboard::isKeyPressed(Keyboard::Space)) {
+        int n_dado = 1 + rand() % (6 + 1 - 1);
+        if (n_dado == 1){
+            ventana_juego->draw(*dados[0]);
+            dados[0]->setPosition(710,45);
+        }
+        if (n_dado == 2){
+            ventana_juego->draw(*dados[1]);
+            dados[1]->setPosition(710,45);
+        }
+        if (n_dado == 3){
+            ventana_juego->draw(*dados[2]);
+            dados[2]->setPosition(710,45);
+        }
+        if (n_dado == 4){
+            ventana_juego->draw(*dados[3]);
+            dados[3]->setPosition(710,45);
+        }
+        if (n_dado == 5){
+            ventana_juego->draw(*dados[4]);
+            dados[4]->setPosition(710,45);
+        }
+        if (n_dado == 6){
+            ventana_juego->draw(*dados[5]);
+            dados[5]->setPosition(710,45);
+        }
+    }
+
     //fichas
 
     if (dibujos::getNJugadores()==2){
@@ -183,31 +216,28 @@ void dibujos::draw_game() {
 
 //Establecer funciones dibujar
 void dibujos::dibujarAzul(){
-    ventana_juego->draw(*fichasAzules[0]);
-    ventana_juego->draw(*fichasAzules[1]);
-    ventana_juego->draw(*fichasAzules[2]);
-    ventana_juego->draw(*fichasAzules[3]);
+    for (int i = 0; i<4 ; i++){
+        ventana_juego->draw(*fichasAzules[i]);
+    }
 }
 
 void dibujos::dibujarAmarilla() {
-    ventana_juego->draw(*fichasAmarillas[0]);
-    ventana_juego->draw(*fichasAmarillas[1]);
-    ventana_juego->draw(*fichasAmarillas[2]);
-    ventana_juego->draw(*fichasAmarillas[3]);
+    for (int i = 0; i<4 ; i++){
+        ventana_juego->draw(*fichasAmarillas[i]);
+    }
 }
 
 void dibujos::dibujarRojo() {
-    ventana_juego->draw(*fichasRojas[0]);
-    ventana_juego->draw(*fichasRojas[1]);
-    ventana_juego->draw(*fichasRojas[2]);
-    ventana_juego->draw(*fichasRojas[3]);
+    for (int i = 0; i<4 ; i++){
+        ventana_juego->draw(*fichasRojas[i]);
+    }
 }
 
 void dibujos::dibujarVerde() {
-    ventana_juego->draw(*fichasVerdes[0]);
-    ventana_juego->draw(*fichasVerdes[1]);
-    ventana_juego->draw(*fichasVerdes[2]);
-    ventana_juego->draw(*fichasVerdes[3]);
+    for (int i = 0; i<4 ; i++){
+        ventana_juego->draw(*fichasVerdes[i]);
+    }
+
 }
 float **dibujos::posiciones(Sprite** ficha){
     auto **coleccion_posiciones= new float*[4];
