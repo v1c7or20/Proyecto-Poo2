@@ -17,6 +17,9 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
     tablero = new Texture;
     tablero_fondo = new Sprite;
 
+    //Dado
+    dado_img = new Texture*[6];
+    dados = new Sprite*[6];
     //Fichas
     fichaAzul = new Texture;
     fichaAmarilla = new Texture;
@@ -27,6 +30,30 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
     //Tablero
     tablero->loadFromFile("Texturas/tablero.jpg");
     tablero_fondo->setTexture(*tablero);
+    //Dado
+        //Textura
+    for(int i = 0; i<6 ; i++){
+        dado_img[i] = new Texture;
+    }
+        //Sprites
+    for(int i = 0; i<6 ; i++){
+        dados[i] = new Sprite;
+    }
+        //Texturas de cada dado
+    dado_img[0]->loadFromFile("Texturas/cara1.png");
+    dado_img[1]->loadFromFile("Texturas/cara2.png");
+    dado_img[2]->loadFromFile("Texturas/cara3.png");
+    dado_img[3]->loadFromFile("Texturas/cara4.png");
+    dado_img[4]->loadFromFile("Texturas/cara5.png");
+    dado_img[5]->loadFromFile("Texturas/cara6.png");
+        //Sprites de cada dado
+    dados[0]->setTexture(*dado_img[0]);
+    dados[1]->setTexture(*dado_img[1]);
+    dados[2]->setTexture(*dado_img[2]);
+    dados[3]->setTexture(*dado_img[3]);
+    dados[4]->setTexture(*dado_img[4]);
+    dados[5]->setTexture(*dado_img[5]);
+
     //Ficha
     fichaAzul->loadFromFile("Texturas/fichaAzul.png");
     fichaVerde->loadFromFile("Texturas/fichaVerde.png");
@@ -72,6 +99,8 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 
 
     //Posiciones
+        //Dado
+    dados[0]->setPosition(710,45);
         //Ficha Azul
     float xf1=140,yf1=45;
     fichasAzules[0]->setPosition(xf1,yf1);
@@ -119,7 +148,8 @@ void dibujos::draw_game() {
 
     //Tablero
     ventana_juego->draw(*tablero_fondo);
-
+    //Dado
+    ventana_juego->draw(*dados[0]);
     //fichas
 
     if (dibujos::getNJugadores()==2){
@@ -148,8 +178,6 @@ void dibujos::draw_game() {
     if (Keyboard::isKeyPressed(Keyboard::Right)) {
         fichasAzules[0]->setPosition(fichasAzules[0]->getPosition().x+40, yf1);
     }
-
-
 
 }
 

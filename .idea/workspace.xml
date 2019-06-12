@@ -34,10 +34,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1005c551-64e5-4dc3-a15a-0d4e494f3412" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project_Poo/Jugador.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/Jugador.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/Jugador.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/Jugador.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/juego.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/juego.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Poo/juego.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/juego.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/CMakeFiles/SFMLApp.dir/dibujos.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Poo/cmake-build-debug/SFMLApp.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Poo/dibujos.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/dibujos.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Poo/dibujos.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Poo/dibujos.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Project_Poo/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project_Poo/Jugador.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="680">
               <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
               <folding>
                 <element signature="e#120#142#0" expanded="true" />
@@ -73,23 +73,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project_Poo/Jugador.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="129">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project_Poo/juego.cpp">
+        <entry file="file://$PROJECT_DIR$/Project_Poo/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
-              <folding>
-                <element signature="e#42#61#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project_Poo/dibujos.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project_Poo/dibujos.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="152" column="35" lean-forward="true" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -102,16 +117,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Project_Poo/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Project_Poo/dibujos.h" />
         <option value="$PROJECT_DIR$/Project_Poo/recorrido.h" />
         <option value="$PROJECT_DIR$/Project_Poo/recorrido.cpp" />
-        <option value="$PROJECT_DIR$/Project_Poo/dibujos.cpp" />
         <option value="$PROJECT_DIR$/Project_Poo/main.cpp" />
         <option value="$PROJECT_DIR$/Project_Poo/juego.h" />
         <option value="$PROJECT_DIR$/Project_Poo/Jugador.h" />
         <option value="$PROJECT_DIR$/Project_Poo/Jugador.cpp" />
         <option value="$PROJECT_DIR$/Project_Poo/juego.cpp" />
+        <option value="$PROJECT_DIR$/Project_Poo/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Project_Poo/dibujos.h" />
+        <option value="$PROJECT_DIR$/Project_Poo/dibujos.cpp" />
       </list>
     </option>
   </component>
@@ -140,6 +155,19 @@
               <item name="SFMLApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto-Poo2" type="462c0819:PsiDirectoryNode" />
               <item name="Project_Poo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SFMLApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto-Poo2" type="462c0819:PsiDirectoryNode" />
+              <item name="Project_Poo" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SFMLApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto-Poo2" type="462c0819:PsiDirectoryNode" />
+              <item name="Project_Poo" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="Texturas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,21 +217,22 @@
       <workItem from="1560200078922" duration="8733000" />
       <workItem from="1560220717434" duration="525000" />
       <workItem from="1560230389453" duration="2141000" />
+      <workItem from="1560295458545" duration="2312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14411000" />
+    <option name="totallyTimeSpent" value="16723000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12556732" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12708019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,7 +243,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="CMake" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32569557" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32565284" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,13 +291,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Project_Poo/ficha.cpp" />
     <entry file="file://$PROJECT_DIR$/Project_Poo/ficha.h" />
-    <entry file="file://$PROJECT_DIR$/Project_Poo/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project_Poo/recorrido.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -297,30 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project_Poo/dibujos.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project_Poo/dibujos.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="146" column="47" selection-start-line="145" selection-start-column="4" selection-end-line="146" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project_Poo/Jugador.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="e#120#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project_Poo/juego.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -328,10 +326,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Poo/Jugador.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="e#120#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Project_Poo/juego.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="1122">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>
@@ -340,8 +348,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project_Poo/Jugador.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="129">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Poo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Poo/dibujos.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project_Poo/dibujos.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="152" column="35" lean-forward="true" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
         </state>
       </provider>
     </entry>

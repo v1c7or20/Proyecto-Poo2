@@ -6,49 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.cpp
-Jugador.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
 recorrido.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
 dibujos.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
 dado.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dado.h
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.cpp
 dibujos.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
 Jugador.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
 recorrido.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/dibujos.h
 SFML/Graphics.hpp
 -
 
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.cpp
-iostream
--
-juego.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
-Jugador.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/Jugador.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/main.cpp
-SFML/Graphics.hpp
--
-iostream
--
-juego.h
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/juego.h
-
-C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
+C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Project_Poo/recorrido.h
 

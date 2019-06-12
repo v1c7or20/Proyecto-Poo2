@@ -14,6 +14,10 @@ private:
     //tablero
     Texture * tablero;
     Sprite * tablero_fondo;
+
+    //Dado
+    Texture ** dado_img;
+    Sprite ** dados;
     //Fichas
         //ficha Azul
     Texture * fichaAzul;
