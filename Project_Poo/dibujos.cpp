@@ -143,9 +143,12 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
     fichasAmarillas[3]->setPosition(500,145);
 
 
+
     game_loop();
 
 }
+
+
 
 void dibujos::draw_game() {
     ventana_juego->clear();
@@ -159,7 +162,7 @@ void dibujos::draw_game() {
         int n_dado = 1 + rand() % (6 + 1 - 1);
         if (n_dado == 1){
             ventana_juego->draw(*dados[0]);
-            dados[0]->setPosition(710,45);
+            dados[n_dado-1]->setPosition(710,45);
         }
         if (n_dado == 2){
             ventana_juego->draw(*dados[1]);
@@ -208,10 +211,14 @@ void dibujos::draw_game() {
     float xf1=130,yf1=235;
     if (Keyboard::isKeyPressed(Keyboard::Num6))
         fichasAzules[0]->setPosition(xf1, yf1);
-    if (Keyboard::isKeyPressed(Keyboard::Right)) {
-        fichasAzules[0]->setPosition(fichasAzules[0]->getPosition().x+40, yf1);
-    }
-
+    if (Keyboard::isKeyPressed(Keyboard::Right))
+        fichasAzules[0]->setPosition(fichasAzules[0]->getPosition().x+40, fichasAzules[0]->getPosition().y);
+    if (Keyboard::isKeyPressed(Keyboard::Left))
+        fichasAzules[0]->setPosition(fichasAzules[0]->getPosition().x-40, fichasAzules[0]->getPosition().y);
+    if (Keyboard::isKeyPressed(Keyboard::Up))
+        fichasAzules[0]->setPosition(fichasAzules[0]->getPosition().x, fichasAzules[0]->getPosition().y-40);
+    if (Keyboard::isKeyPressed(Keyboard::Down))
+        fichasAzules[0]->setPosition(fichasAzules[0]->getPosition().x, fichasAzules[0]->getPosition().y+40);
 }
 
 //Establecer funciones dibujar
