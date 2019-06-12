@@ -6,7 +6,7 @@ using namespace sf;
 using namespace std;
 
 int main(){
-    
+
     int N_Jugadores = 0;
     do {
         cout << "Ingrese numero de jugadores: " << endl;
@@ -16,4 +16,5 @@ int main(){
 
     } while (N_Jugadores > 4 or N_Jugadores == 1);
     juego *partida1 = new juego (N_Jugadores);
+
 }

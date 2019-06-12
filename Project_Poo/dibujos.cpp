@@ -8,16 +8,17 @@
 #include "recorrido.h"
 
 dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
-
+    //Principales parametro del constructor SFML
     this->N_Jugadores = N_Jugadores;
     fps =60;
     ventana_juego = new RenderWindow(VideoMode(res_x, res_y),titulo);
-
     ventana_juego->setFramerateLimit(fps);
+
 
     //Tablero
     tablero = new Texture;
-    tablero_fondo = new Sprite;
+    tablero->loadFromFile("Texturas/tablero.jpg");
+    tablero_fondo = new Sprite(*tablero);
 
     //Dado
     dado_img = new Texture*[6];
@@ -27,79 +28,50 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
     fichaAmarilla = new Texture;
     fichaVerde = new Texture;
     fichaRojo = new Texture;
+    fichaAzul->loadFromFile("Texturas/fichaAzul.png");
+    fichaVerde->loadFromFile("Texturas/fichaVerde.png");
+    fichaRojo->loadFromFile("Texturas/fichaRojo.png");
+    fichaAmarilla->loadFromFile("Texturas/fichaAmarilla.png");
 
     //Cargamos el archivo de textura
-    //Tablero
-    tablero->loadFromFile("Texturas/tablero.jpg");
-    tablero_fondo->setTexture(*tablero);
     //Dado
         //Textura
     for(int i = 0; i<6 ; i++){
         dado_img[i] = new Texture;
     }
-        //Sprites
-    for(int i = 0; i<6 ; i++){
-        dados[i] = new Sprite;
-    }
-        //Texturas de cada dado
     dado_img[0]->loadFromFile("Texturas/cara1.png");
     dado_img[1]->loadFromFile("Texturas/cara2.png");
     dado_img[2]->loadFromFile("Texturas/cara3.png");
     dado_img[3]->loadFromFile("Texturas/cara4.png");
     dado_img[4]->loadFromFile("Texturas/cara5.png");
     dado_img[5]->loadFromFile("Texturas/cara6.png");
-        //Sprites de cada dado
-    dados[0]->setTexture(*dado_img[0]);
-    dados[1]->setTexture(*dado_img[1]);
-    dados[2]->setTexture(*dado_img[2]);
-    dados[3]->setTexture(*dado_img[3]);
-    dados[4]->setTexture(*dado_img[4]);
-    dados[5]->setTexture(*dado_img[5]);
 
-    //Ficha
-    fichaAzul->loadFromFile("Texturas/fichaAzul.png");
-    fichaVerde->loadFromFile("Texturas/fichaVerde.png");
-    fichaRojo->loadFromFile("Texturas/fichaRojo.png");
-    fichaAmarilla->loadFromFile("Texturas/fichaAmarilla.png");
+        //Creamos los Sprites para las caras del dado
+    for(int i = 0; i<6 ; i++){
+        dados[i] = new Sprite(*dado_img[i]);
+    }
 
-
+    //Creamos los Sprites de cada ficha
         //Ficha Azul
     fichasAzules=new Sprite*[4];
     for (int i = 0; i < 4; i++) {
-        fichasAzules[i]= new Sprite;
+        fichasAzules[i]= new Sprite(*fichaAzul);
     }
-    for (int i = 0; i < 4; i++) {
-        fichasAzules[i]->setTexture(*fichaAzul);
-    }
-
         //Ficha Rojo
     fichasRojas=new Sprite*[4];
     for (int i = 0; i < 4; i++) {
-        fichasRojas[i]= new Sprite;
+        fichasRojas[i]= new Sprite(*fichaRojo);
     }
-    for (int i = 0; i < 4; i++) {
-        fichasRojas[i]->setTexture(*fichaRojo);
-    }
-
         //Ficha Verde
     fichasVerdes=new Sprite*[4];
     for (int i = 0; i < 4; i++) {
-        fichasVerdes[i]= new Sprite;
+        fichasVerdes[i]= new Sprite(*fichaVerde);
     }
-    for (int i = 0; i < 4; i++) {
-        fichasVerdes[i]->setTexture(*fichaVerde);
-    };
-
         //Ficha Amarilla
     fichasAmarillas=new Sprite*[4];
     for (int i = 0; i < 4; i++) {
-        fichasAmarillas[i]= new Sprite;
+        fichasAmarillas[i]= new Sprite(*fichaAmarilla);
     }
-    for (int i = 0; i < 4; i++) {
-        fichasAmarillas[i]->setTexture(*fichaAmarilla);
-    }
-
-
     //Posiciones
         //Dado
 
@@ -160,29 +132,11 @@ void dibujos::draw_game() {
     srand(time(NULL));
     if (Keyboard::isKeyPressed(Keyboard::Space)) {
         int n_dado = 1 + rand() % (6 + 1 - 1);
-        if (n_dado == 1){
-            ventana_juego->draw(*dados[0]);
-            dados[n_dado-1]->setPosition(710,45);
-        }
-        if (n_dado == 2){
-            ventana_juego->draw(*dados[1]);
-            dados[1]->setPosition(710,45);
-        }
-        if (n_dado == 3){
-            ventana_juego->draw(*dados[2]);
-            dados[2]->setPosition(710,45);
-        }
-        if (n_dado == 4){
-            ventana_juego->draw(*dados[3]);
-            dados[3]->setPosition(710,45);
-        }
-        if (n_dado == 5){
-            ventana_juego->draw(*dados[4]);
-            dados[4]->setPosition(710,45);
-        }
-        if (n_dado == 6){
-            ventana_juego->draw(*dados[5]);
-            dados[5]->setPosition(710,45);
+        for (int i = 0; i < 6 ; i++){
+            if (n_dado == i+1){
+                ventana_juego->draw(*dados[i]);
+                dados[i]->setPosition(710,45);
+            }
         }
     }
 
@@ -267,6 +221,7 @@ void dibujos::game_loop() {
             draw_game();
             if (event.type == Event::Closed)
                 ventana_juego->close();
+
         }
     }
 }

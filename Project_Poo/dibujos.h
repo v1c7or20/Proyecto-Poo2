@@ -6,11 +6,14 @@
 #define SFMLAPP_DIBUJOS_H
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 using namespace sf;
 using namespace std;
 class dibujos {
 private:
     int N_Jugadores;
+    //Musica
+
     //tablero
     Texture * tablero;
     Sprite * tablero_fondo;
