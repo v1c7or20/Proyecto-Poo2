@@ -39,6 +39,7 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
     for(int i = 0; i<6 ; i++){
         dado_img[i] = new Texture;
     }
+
     dado_img[0]->loadFromFile("Texturas/cara1.png");
     dado_img[1]->loadFromFile("Texturas/cara2.png");
     dado_img[2]->loadFromFile("Texturas/cara3.png");
@@ -121,7 +122,6 @@ dibujos::dibujos(int res_x, int res_y, string titulo, int N_Jugadores)  {
 }
 
 
-
 void dibujos::draw_game() {
     ventana_juego->clear();
 
@@ -129,16 +129,18 @@ void dibujos::draw_game() {
     ventana_juego->draw(*tablero_fondo);
 
     //Dado
+
     srand(time(NULL));
+    int n_dado;
     if (Keyboard::isKeyPressed(Keyboard::Space)) {
-        int n_dado = 1 + rand() % (6 + 1 - 1);
-        for (int i = 0; i < 6 ; i++){
-            if (n_dado == i+1){
-                ventana_juego->draw(*dados[i]);
-                dados[i]->setPosition(710,45);
-            }
-        }
+        n_dado = 1 + rand() % (6 + 1 - 1);
+
     }
+    if (n_dado>0 and n_dado<7) {
+        ventana_juego->draw(*dados[n_dado - 1]);
+        dados[n_dado - 1]->setPosition(710, 45);
+    }
+
 
     //fichas
 
@@ -221,7 +223,6 @@ void dibujos::game_loop() {
             draw_game();
             if (event.type == Event::Closed)
                 ventana_juego->close();
-
         }
     }
 }
