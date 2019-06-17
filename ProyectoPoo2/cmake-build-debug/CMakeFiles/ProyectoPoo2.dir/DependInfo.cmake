@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Ludo.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj"
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Recorrido.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj"
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Tablero.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj"
+  "C:/Users/Usuario/Downloads/ProyectoPoo2/main.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

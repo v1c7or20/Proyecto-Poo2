@@ -7,3 +7,7 @@ Tablero::Tablero() {
 }
 
 Tablero::~Tablero() {}
+
+sf::Sprite *Tablero::getTablero() const {
+    return tablero;
+}

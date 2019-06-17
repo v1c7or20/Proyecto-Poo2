@@ -122,6 +122,9 @@
 		<Unit filename="C:/Users/Usuario/Downloads/ProyectoPoo2/Tablero.hpp">
 			<Option target="ProyectoPoo2"/>
 		</Unit>
+		<Unit filename="C:/Users/Usuario/Downloads/ProyectoPoo2/main.cpp">
+			<Option target="ProyectoPoo2"/>
+		</Unit>
 		<Unit filename="C:/Users/Usuario/Downloads/ProyectoPoo2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

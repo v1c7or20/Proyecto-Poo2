@@ -16,8 +16,5 @@ public:
 
 };
 
-sf::Sprite *Tablero::getTablero() const {
-    return tablero;
-}
 
 #endif

@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj"
   "CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj"
   "CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj"
+  "CMakeFiles/ProyectoPoo2.dir/main.cpp.obj"
   "ProyectoPoo2.pdb"
   "ProyectoPoo2.exe"
   "ProyectoPoo2.exe.manifest"
