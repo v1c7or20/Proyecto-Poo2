@@ -60,3 +60,11 @@ void Jugador::setCanplay(bool canplay) {
 void Jugador::setRepeticion(int repeticion) {
     Jugador::repeticion = repeticion;
 }
+
+int Jugador::getLast() const {
+    return last;
+}
+
+int Jugador::getRepeticion() const {
+    return repeticion;
+}

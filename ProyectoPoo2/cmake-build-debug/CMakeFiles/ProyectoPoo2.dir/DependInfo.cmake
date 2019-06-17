@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Ficha.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.obj"
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Juego.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj"
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Jugador.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj"
+  "C:/Users/Usuario/Downloads/ProyectoPoo2/Ludo.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj"
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Recorrido.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj"
   "C:/Users/Usuario/Downloads/ProyectoPoo2/Tablero.cpp" "C:/Users/Usuario/Downloads/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj"
   )

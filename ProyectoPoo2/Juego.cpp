@@ -30,10 +30,21 @@ Juego::~Juego() {}
 void Juego::nexturn() {
     int actual = turno%N_Jugadores;
     jugadores[actual]->setLast(dado->lanzar());
+    comprobar_repeticiones(jugadores[actual]);
+
 }
 
 void Juego::aumenta() {
     turno++;
+}
+
+void Juego::comprobar_repeticiones(Jugador *jugador) {
+    if(jugador->getLast() == 6){
+        jugador->setRepeticion(jugador->getRepeticion()+1);
+    }
+    if(jugador->getLast() != 6){
+        jugador->setRepeticion(0);
+    }
 }
 
 int Juego::getTurno() const {

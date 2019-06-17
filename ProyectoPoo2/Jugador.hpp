@@ -23,7 +23,9 @@ public:
 
 	Jugador(char color);
 
-	~Jugador();
+    int getRepeticion() const;
+
+    int getLast() const;
 
     Ficha **getFichas() const;
 

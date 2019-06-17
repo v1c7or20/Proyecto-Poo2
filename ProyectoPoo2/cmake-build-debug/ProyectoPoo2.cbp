@@ -104,6 +104,12 @@
 		<Unit filename="C:/Users/Usuario/Downloads/ProyectoPoo2/Jugador.hpp">
 			<Option target="ProyectoPoo2"/>
 		</Unit>
+		<Unit filename="C:/Users/Usuario/Downloads/ProyectoPoo2/Ludo.cpp">
+			<Option target="ProyectoPoo2"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Downloads/ProyectoPoo2/Ludo.hpp">
+			<Option target="ProyectoPoo2"/>
+		</Unit>
 		<Unit filename="C:/Users/Usuario/Downloads/ProyectoPoo2/Recorrido.cpp">
 			<Option target="ProyectoPoo2"/>
 		</Unit>

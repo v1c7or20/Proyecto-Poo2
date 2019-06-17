@@ -10,6 +10,7 @@ add_executable(ProyectoPoo2
         Ficha.cpp
         Tablero.cpp
         Jugador.cpp
-        Juego.cpp)
+        Juego.cpp
+        Ludo.cpp)
 
 target_link_libraries (ProyectoPoo2 sfml-graphics sfml-window sfml-system)

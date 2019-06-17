@@ -230,6 +230,33 @@ Jugador.cpp.s:
 	$(MAKE) -f CMakeFiles\ProyectoPoo2.dir\build.make CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.s
 .PHONY : Jugador.cpp.s
 
+Ludo.obj: Ludo.cpp.obj
+
+.PHONY : Ludo.obj
+
+# target to build an object file
+Ludo.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProyectoPoo2.dir\build.make CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj
+.PHONY : Ludo.cpp.obj
+
+Ludo.i: Ludo.cpp.i
+
+.PHONY : Ludo.i
+
+# target to preprocess a source file
+Ludo.cpp.i:
+	$(MAKE) -f CMakeFiles\ProyectoPoo2.dir\build.make CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.i
+.PHONY : Ludo.cpp.i
+
+Ludo.s: Ludo.cpp.s
+
+.PHONY : Ludo.s
+
+# target to generate assembly for a file
+Ludo.cpp.s:
+	$(MAKE) -f CMakeFiles\ProyectoPoo2.dir\build.make CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.s
+.PHONY : Ludo.cpp.s
+
 Recorrido.obj: Recorrido.cpp.obj
 
 .PHONY : Recorrido.obj
@@ -305,6 +332,9 @@ help:
 	@echo ... Jugador.obj
 	@echo ... Jugador.i
 	@echo ... Jugador.s
+	@echo ... Ludo.obj
+	@echo ... Ludo.i
+	@echo ... Ludo.s
 	@echo ... Recorrido.obj
 	@echo ... Recorrido.i
 	@echo ... Recorrido.s
