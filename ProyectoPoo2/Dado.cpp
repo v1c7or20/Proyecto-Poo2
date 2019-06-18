@@ -4,11 +4,10 @@
 Dado::~Dado() {}
 
 Dado::Dado() {
-    srand(time(nullptr));
+    dado_img = new sf::Texture*[6];
     for(int i = 0; i<6 ; i++){
         dado_img[i] = new sf::Texture;
     }
-
     dado_img[0]->loadFromFile("Texturas/cara1.png");
     dado_img[1]->loadFromFile("Texturas/cara2.png");
     dado_img[2]->loadFromFile("Texturas/cara3.png");
@@ -19,6 +18,7 @@ Dado::Dado() {
         //Creamos los Sprites para las caras del dado
     dados=new sf::Sprite;
     dados->setTexture(*dado_img[5]);
+    dados->setPosition(710, 45);
 }
 
 int Dado::lanzar() {

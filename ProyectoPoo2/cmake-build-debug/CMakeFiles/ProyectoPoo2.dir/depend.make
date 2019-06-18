@@ -35,5 +35,12 @@ CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj: ../Recorrido.hpp
 CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj: ../Tablero.cpp
 CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj: ../Tablero.hpp
 
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Dado.hpp
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Ficha.hpp
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Juego.hpp
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Jugador.hpp
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Ludo.hpp
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Recorrido.hpp
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Tablero.hpp
 CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../main.cpp
 

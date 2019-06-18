@@ -80,7 +80,7 @@ Ficha::Ficha(char color, int id) {
 
 Ficha::~Ficha() {}
 
-Sprite *Ficha::getFicha() const {
+Sprite *Ficha::getFichasp() const {
     return ficha;
 }
 
@@ -94,4 +94,8 @@ int Ficha::getTabPos() const {
 
 void Ficha::setEstado(char estado) {
     Ficha::estado = estado;
+}
+
+char Ficha::getEstado() const {
+    return estado;
 }

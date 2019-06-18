@@ -22,6 +22,8 @@ Juego::Juego(int N_Jugadores) {
             jugadores[2] = new Jugador('G');
             jugadores[3] = new Jugador('R');
             break;
+        default:
+            break;
     }
 }
 

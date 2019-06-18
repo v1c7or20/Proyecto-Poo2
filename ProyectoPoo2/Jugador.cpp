@@ -1,6 +1,7 @@
 #include "Jugador.hpp"
 
 Jugador::Jugador(char color) {
+    recorrido=new Recorrido(color);
     this->color = color;
     fichas = new Ficha*[4];
     for (int i = 0; i < 4; i++) {

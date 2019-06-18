@@ -15,19 +15,21 @@ private:
     Sprite * ficha;
     int id;
     char estado;
-    int tab_pos=0;
+    int tab_pos=-1;
     /*C casa J jugando F final S segura  */
 public:
 
 	Ficha(char color, int id);
 
-    Sprite *getFicha() const;
+    Sprite *getFichasp() const;
 
     void setEstado(char estado);
 
     int getTabPos() const;
 
     void setTabPos(int tabPos);
+
+    char getEstado() const;
 
     ~Ficha();
 	

@@ -11,8 +11,7 @@ private:
 public:
 	Ludo();
 	void inicio();
-	~Ludo();
-	
+	void draw();
 };
 
 #endif
