@@ -34,7 +34,6 @@ void Ludo::inicio() {
         while (ventana_juego->pollEvent(event)) {
             draw();
             
-            juego->nexturn();
             if (event.type == Event::Closed)
                 ventana_juego->close();
         }
