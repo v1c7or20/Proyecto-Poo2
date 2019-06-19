@@ -69,3 +69,7 @@ int Jugador::getLast() const {
 int Jugador::getRepeticion() const {
     return repeticion;
 }
+
+bool Jugador::isCanplay() const {
+    return canplay;
+}

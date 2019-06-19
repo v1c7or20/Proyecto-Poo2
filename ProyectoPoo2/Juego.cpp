@@ -33,7 +33,6 @@ void Juego::nexturn() {
     int actual = turno%N_Jugadores;
     jugadores[actual]->setLast(dado->lanzar());
     comprobar_repeticiones(jugadores[actual]);
-
 }
 
 void Juego::aumenta() {
@@ -43,11 +42,16 @@ void Juego::aumenta() {
 void Juego::comprobar_repeticiones(Jugador *jugador) {
     if(jugador->getLast() == 6){
         jugador->setRepeticion(jugador->getRepeticion()+1);
+        if(jugador->getRepeticion()==3){
+            jugador->setCanplay(false);
+        }
     }
     if(jugador->getLast() != 6){
         jugador->setRepeticion(0);
+        jugador->setCanplay(true);
     }
 }
+
 
 int Juego::getTurno() const {
     return turno;

@@ -6,25 +6,29 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Dado.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Dado.hpp
 SFML/Graphics.hpp
 -
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Ficha.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Ficha.hpp
 SFML/Graphics.hpp
 -
 SFML/Audio.hpp
 -
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Juego.hpp
-Dado.hpp
-C:/Users/Usuario/Downloads/ProyectoPoo2/Dado.hpp
-Jugador.hpp
-C:/Users/Usuario/Downloads/ProyectoPoo2/Jugador.hpp
-Tablero.hpp
-C:/Users/Usuario/Downloads/ProyectoPoo2/Tablero.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Juego.cpp
+Juego.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Juego.hpp
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Jugador.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Juego.hpp
+Dado.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Dado.hpp
+Jugador.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Jugador.hpp
+Tablero.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Tablero.hpp
+
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Jugador.hpp
 SFML/Graphics.hpp
 -
 iostream
@@ -32,25 +36,31 @@ iostream
 vector
 -
 Ficha.hpp
-C:/Users/Usuario/Downloads/ProyectoPoo2/Ficha.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Ficha.hpp
 Recorrido.hpp
-C:/Users/Usuario/Downloads/ProyectoPoo2/Recorrido.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Recorrido.hpp
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Ludo.cpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Ludo.cpp
 Ludo.hpp
-C:/Users/Usuario/Downloads/ProyectoPoo2/Ludo.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Ludo.hpp
 unistd.h
 -
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Ludo.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Ludo.hpp
 SFML/Graphics.hpp
 -
 Juego.hpp
-C:/Users/Usuario/Downloads/ProyectoPoo2/Juego.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Juego.hpp
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Recorrido.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Recorrido.hpp
 
-C:/Users/Usuario/Downloads/ProyectoPoo2/Tablero.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Tablero.hpp
 SFML/Graphics.hpp
 -
+
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/main.cpp
+iostream
+-
+Ludo.hpp
+C:/Users/Usuario/Downloads/ProyectoPoo2v1-F/Ludo.hpp
 

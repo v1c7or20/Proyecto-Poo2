@@ -39,6 +39,8 @@ public:
 
     void setCanplay(bool canplay);
 
+    bool isCanplay() const;
+
     void setRepeticion(int repeticion);
 };
 

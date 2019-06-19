@@ -99,3 +99,7 @@ void Ficha::setEstado(char estado) {
 char Ficha::getEstado() const {
     return estado;
 }
+
+int Ficha::getId() const {
+    return id;
+}

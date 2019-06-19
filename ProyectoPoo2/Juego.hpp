@@ -31,6 +31,8 @@ public:
 
     Jugador **getJugadores() const;
 
+
+
     ~Juego();
 	
 };

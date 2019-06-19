@@ -31,6 +31,8 @@ public:
 
     char getEstado() const;
 
+    int getId() const;
+
     ~Ficha();
 	
 };
