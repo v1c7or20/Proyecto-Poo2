@@ -25,6 +25,8 @@ public:
 
     int getNJugadores() const;
 
+    void mover_ficha(Jugador *jugador,int id_ficha);
+
     Tablero *getTablero() const;
 
     Dado *getDado() const;

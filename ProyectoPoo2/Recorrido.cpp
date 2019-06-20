@@ -240,7 +240,7 @@ Recorrido::Recorrido(char color) {
         if(i<6){
             x-=40;
             recorrido[i][0]=x;
-            recorrido[i][1]=y;
+            recorrido[i][1]=y;}
 
             if(i>=6 and i<12){
                 y+=40;
@@ -305,7 +305,8 @@ Recorrido::Recorrido(char color) {
                 recorrido[i][1]=y;
             }
         }
-    }}}
+    }
+}
 
 int **Recorrido::getRecorrido() const {
     return recorrido;

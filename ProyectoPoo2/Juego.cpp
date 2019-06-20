@@ -33,6 +33,8 @@ void Juego::nexturn() {
     int actual = turno%N_Jugadores;
     jugadores[actual]->setLast(dado->lanzar());
     comprobar_repeticiones(jugadores[actual]);
+    mover_ficha(jugadores[actual],1);
+    aumenta();
 }
 
 void Juego::aumenta() {
@@ -50,6 +52,16 @@ void Juego::comprobar_repeticiones(Jugador *jugador) {
         jugador->setRepeticion(0);
         jugador->setCanplay(true);
     }
+}
+
+void Juego::mover_ficha(Jugador *jugador,int id_ficha){
+    int last = jugador->getLast();
+    Ficha *ficha_mover = jugador->getFichas()[id_ficha];
+    float x = ficha_mover->getFichasp()->getPosition().x, y = ficha_mover->getFichasp()->getPosition().y ;
+    ficha_mover->setTabPos(ficha_mover->getTabPos()+last);
+    int posactual = ficha_mover->getTabPos();
+    ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[posactual][0],jugador->getRecorrido()->getRecorrido()[posactual][1]);
+
 }
 
 
