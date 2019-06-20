@@ -27,14 +27,45 @@ Juego::Juego(int N_Jugadores) {
     }
 }
 
-Juego::~Juego() {}
-
 void Juego::nexturn() {
     int actual = turno%N_Jugadores;
     jugadores[actual]->setLast(dado->lanzar());
     comprobar_repeticiones(jugadores[actual]);
-    mover_ficha(jugadores[actual],1);
+
+}
+
+void Juego::gamephase(int id){
+    int actual = turno%N_Jugadores;
+    Ficha *seleccionada = jugadores[actual]->getFichas()[id];
+    if(comprobar_enjuego(seleccionada))
+        mover_ficha(jugadores[actual],id);
+    if(comprobar_casa(seleccionada) and jugadores[actual]->getLast()==6){
+        seleccionada->getFichasp()->setPosition(jugadores[actual]->getRecorrido()->getRecorrido()[0][0],
+                                                jugadores[actual]->getRecorrido()->getRecorrido()[0][1]);
+        seleccionada->setEstado('J');
+    }
     aumenta();
+}
+
+bool Juego::comprobar_enjuego(Ficha *ficha){
+    if (ficha->getEstado()=='J' or ficha->getEstado()=='S')
+        return true;
+    else return false;
+}
+bool Juego::comprobar_casa(Ficha *ficha){
+    if (ficha->getEstado()=='C')
+        return true;
+    else return false;
+}
+bool Juego::comprobar_segura(Ficha *ficha){
+    if (ficha->getEstado()=='S')
+        return true;
+    else return false;
+}
+bool Juego::comprobar_final(Ficha *ficha){
+    if (ficha->getEstado()=='F')
+        return true;
+    else return false;
 }
 
 void Juego::aumenta() {
