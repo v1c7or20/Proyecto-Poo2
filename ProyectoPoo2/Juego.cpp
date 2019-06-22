@@ -111,10 +111,20 @@ void Juego::comprobar_repeticiones(Jugador *jugador) {
 void Juego::mover_ficha(Jugador *jugador,int id_ficha){
     int last = jugador->getLast();
     Ficha *ficha_mover = jugador->getFichas()[id_ficha];
-    float x = ficha_mover->getFichasp()->getPosition().x, y = ficha_mover->getFichasp()->getPosition().y ;
-    ficha_mover->setTabPos(ficha_mover->getTabPos()+last);
-    int posactual = ficha_mover->getTabPos();
-    ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[posactual][0],jugador->getRecorrido()->getRecorrido()[posactual][1]);
+    if (ficha_mover->getTabPos()+last<60) {
+        ficha_mover->setTabPos(ficha_mover->getTabPos() + last);
+        int posactual = ficha_mover->getTabPos();
+        ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[posactual][0],
+                                               jugador->getRecorrido()->getRecorrido()[posactual][1]);
+    }
+    else{
+        ficha_mover->setTabPos(60);
+        ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[60][0],
+                                               jugador->getRecorrido()->getRecorrido()[60][1]);
+        ficha_mover->setEstado('F');
+
+    }
+
 }
 
 Tablero *Juego::getTablero() const {

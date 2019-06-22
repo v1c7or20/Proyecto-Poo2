@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v3-F
+# Install script for directory: C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v3-F/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
