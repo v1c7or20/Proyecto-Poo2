@@ -38,6 +38,8 @@ void Ludo::inicio() {
             if(event.type== sf::Event::KeyPressed){
                 juego->nexturn();
                 juego->gamephase(1);
+                juego->middlephase(1);
+                juego->aumenta();
             }
             /*while(getCoorde(juego->getJugadores()[juego->getTurno()%N_Jugadores]->getFichas()[n]->getFichasp()){
 

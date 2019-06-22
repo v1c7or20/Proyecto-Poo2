@@ -13,17 +13,14 @@ private:
     Dado *dado;
     Jugador **jugadores;
 public:
-	Juego(int N_Jugadores);
+
+    Juego(int N_Jugadores);
 
 	void nexturn();
 
     void comprobar_repeticiones(Jugador *jugador);
 
     void aumenta();
-
-    int getTurno() const;
-
-    int getNJugadores() const;
 
     void mover_ficha(Jugador *jugador,int id_ficha);
 
@@ -32,6 +29,10 @@ public:
     bool comprobar_casa(Ficha *ficha);
 
     void gamephase(int id);
+
+    void middlephase(int id);
+
+    void endphase();
 
     bool comprobar_final(Ficha *ficha);
 

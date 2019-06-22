@@ -44,7 +44,30 @@ void Juego::gamephase(int id){
                                                 jugadores[actual]->getRecorrido()->getRecorrido()[0][1]);
         seleccionada->setEstado('J');
     }
-    aumenta();
+}
+
+void Juego::middlephase(int id){
+    int actual = turno%N_Jugadores,
+    comparado = actual,
+    x = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().x,
+    y = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().y;
+    for (int i = 0; i < 3; i++) {
+        comparado++;
+        for (int j = 0; j <4 ; j++) {
+            if(x== jugadores[comparado%4]->getFichas()[j]->getFichasp()->getPosition().x
+            and y == jugadores[comparado%4]->getFichas()[j]->getFichasp()->getPosition().y){
+                if(jugadores[comparado%4]->getFichas()[j]->getEstado() == 'J'){
+                    jugadores[comparado%4]->getFichas()[j]->setTabPos(-1);
+                    jugadores[comparado%4]->getFichas()[j]->setEstado('C');
+                    jugadores[comparado%4]->getFichas()[j]->getFichasp()->setPosition(jugadores[comparado%4]->getPosIniciales()[j][0]);
+                }
+            }
+        }
+    }
+}
+
+void Juego::endphase(){
+
 }
 
 bool Juego::comprobar_enjuego(Ficha *ficha){
@@ -92,16 +115,6 @@ void Juego::mover_ficha(Jugador *jugador,int id_ficha){
     ficha_mover->setTabPos(ficha_mover->getTabPos()+last);
     int posactual = ficha_mover->getTabPos();
     ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[posactual][0],jugador->getRecorrido()->getRecorrido()[posactual][1]);
-
-}
-
-
-int Juego::getTurno() const {
-    return turno;
-}
-
-int Juego::getNJugadores() const {
-    return N_Jugadores;
 }
 
 Tablero *Juego::getTablero() const {

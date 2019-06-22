@@ -22,7 +22,7 @@ Jugador::Jugador(char color) {
     }
     if (color == 'G'){
         pos_iniciales[0] = new Vector2<float >(500,505);
-        pos_iniciales[1] = new Vector2<float >(600,405);
+        pos_iniciales[1] = new Vector2<float >(600,505);
         pos_iniciales[2] = new Vector2<float >(600,405);
         pos_iniciales[3] = new Vector2<float >(500,505);
     }
