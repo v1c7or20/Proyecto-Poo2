@@ -12,6 +12,7 @@ private:
     Tablero *tablero;
     Dado *dado;
     Jugador **jugadores;
+    sf::Music musica;
 public:
 
     Juego(int N_Jugadores);

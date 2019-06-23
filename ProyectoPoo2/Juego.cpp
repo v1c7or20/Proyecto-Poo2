@@ -1,7 +1,12 @@
 #include "Juego.hpp"
+#include <SFML/Audio.hpp>
+
 
 Juego::Juego(int N_Jugadores) {
     turno=1;
+    musica.openFromFile("Musica/ludo.wav");
+    musica.setLoop(true);
+    musica.play();
     this->N_Jugadores=N_Jugadores;
     dado = new Dado();
     tablero = new Tablero();

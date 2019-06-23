@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F
+CMAKE_SOURCE_DIR = C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProyectoPoo2.dir/depend.make
@@ -58,107 +58,107 @@ include CMakeFiles/ProyectoPoo2.dir/flags.make
 
 CMakeFiles/ProyectoPoo2.dir/Dado.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/Dado.cpp.obj: ../Dado.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Dado.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Dado.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Dado.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Dado.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Dado.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Dado.cpp
 
 CMakeFiles/ProyectoPoo2.dir/Dado.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/Dado.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Dado.cpp > CMakeFiles\ProyectoPoo2.dir\Dado.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Dado.cpp > CMakeFiles\ProyectoPoo2.dir\Dado.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/Dado.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/Dado.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Dado.cpp -o CMakeFiles\ProyectoPoo2.dir\Dado.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Dado.cpp -o CMakeFiles\ProyectoPoo2.dir\Dado.cpp.s
 
 CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj: ../Recorrido.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Recorrido.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Recorrido.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Recorrido.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Recorrido.cpp
 
 CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Recorrido.cpp > CMakeFiles\ProyectoPoo2.dir\Recorrido.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Recorrido.cpp > CMakeFiles\ProyectoPoo2.dir\Recorrido.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Recorrido.cpp -o CMakeFiles\ProyectoPoo2.dir\Recorrido.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Recorrido.cpp -o CMakeFiles\ProyectoPoo2.dir\Recorrido.cpp.s
 
 CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.obj: ../Ficha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Ficha.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Ficha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Ficha.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Ficha.cpp
 
 CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Ficha.cpp > CMakeFiles\ProyectoPoo2.dir\Ficha.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Ficha.cpp > CMakeFiles\ProyectoPoo2.dir\Ficha.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Ficha.cpp -o CMakeFiles\ProyectoPoo2.dir\Ficha.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Ficha.cpp -o CMakeFiles\ProyectoPoo2.dir\Ficha.cpp.s
 
 CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj: ../Tablero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Tablero.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Tablero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Tablero.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Tablero.cpp
 
 CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Tablero.cpp > CMakeFiles\ProyectoPoo2.dir\Tablero.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Tablero.cpp > CMakeFiles\ProyectoPoo2.dir\Tablero.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Tablero.cpp -o CMakeFiles\ProyectoPoo2.dir\Tablero.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Tablero.cpp -o CMakeFiles\ProyectoPoo2.dir\Tablero.cpp.s
 
 CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj: ../Jugador.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Jugador.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Jugador.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Jugador.cpp
 
 CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Jugador.cpp > CMakeFiles\ProyectoPoo2.dir\Jugador.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Jugador.cpp > CMakeFiles\ProyectoPoo2.dir\Jugador.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Jugador.cpp -o CMakeFiles\ProyectoPoo2.dir\Jugador.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Jugador.cpp -o CMakeFiles\ProyectoPoo2.dir\Jugador.cpp.s
 
 CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj: ../Juego.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Juego.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Juego.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Juego.cpp
 
 CMakeFiles/ProyectoPoo2.dir/Juego.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/Juego.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Juego.cpp > CMakeFiles\ProyectoPoo2.dir\Juego.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Juego.cpp > CMakeFiles\ProyectoPoo2.dir\Juego.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/Juego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/Juego.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Juego.cpp -o CMakeFiles\ProyectoPoo2.dir\Juego.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Juego.cpp -o CMakeFiles\ProyectoPoo2.dir\Juego.cpp.s
 
 CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj: ../Ludo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Ludo.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Ludo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\Ludo.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Ludo.cpp
 
 CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Ludo.cpp > CMakeFiles\ProyectoPoo2.dir\Ludo.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Ludo.cpp > CMakeFiles\ProyectoPoo2.dir\Ludo.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\Ludo.cpp -o CMakeFiles\ProyectoPoo2.dir\Ludo.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\Ludo.cpp -o CMakeFiles\ProyectoPoo2.dir\Ludo.cpp.s
 
 CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: CMakeFiles/ProyectoPoo2.dir/flags.make
 CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProyectoPoo2.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\main.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProyectoPoo2.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProyectoPoo2.dir\main.cpp.obj -c C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\main.cpp
 
 CMakeFiles/ProyectoPoo2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProyectoPoo2.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\main.cpp > CMakeFiles\ProyectoPoo2.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\main.cpp > CMakeFiles\ProyectoPoo2.dir\main.cpp.i
 
 CMakeFiles/ProyectoPoo2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProyectoPoo2.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\main.cpp -o CMakeFiles\ProyectoPoo2.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\main.cpp -o CMakeFiles\ProyectoPoo2.dir\main.cpp.s
 
 # Object files for target ProyectoPoo2
 ProyectoPoo2_OBJECTS = \
@@ -186,7 +186,7 @@ ProyectoPoo2.exe: CMakeFiles/ProyectoPoo2.dir/build.make
 ProyectoPoo2.exe: CMakeFiles/ProyectoPoo2.dir/linklibs.rsp
 ProyectoPoo2.exe: CMakeFiles/ProyectoPoo2.dir/objects1.rsp
 ProyectoPoo2.exe: CMakeFiles/ProyectoPoo2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ProyectoPoo2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ProyectoPoo2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProyectoPoo2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,6 +199,6 @@ CMakeFiles/ProyectoPoo2.dir/clean:
 .PHONY : CMakeFiles/ProyectoPoo2.dir/clean
 
 CMakeFiles/ProyectoPoo2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v4-F\cmake-build-debug\CMakeFiles\ProyectoPoo2.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug C:\Users\Usuario\Downloads\POOversiones\ProyectoPoo2v5-F\cmake-build-debug\CMakeFiles\ProyectoPoo2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProyectoPoo2.dir/depend
 

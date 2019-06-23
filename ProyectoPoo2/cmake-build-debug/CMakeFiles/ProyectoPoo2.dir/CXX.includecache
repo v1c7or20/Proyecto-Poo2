@@ -6,29 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Dado.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Dado.hpp
 SFML/Graphics.hpp
 -
 
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Ficha.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Ficha.hpp
 SFML/Graphics.hpp
 -
 SFML/Audio.hpp
 -
 
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Juego.cpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Juego.cpp
 Juego.hpp
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Juego.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Juego.hpp
+SFML/Audio.hpp
+-
 
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Juego.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Juego.hpp
 Dado.hpp
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Dado.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Dado.hpp
 Jugador.hpp
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Jugador.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Jugador.hpp
 Tablero.hpp
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Tablero.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Tablero.hpp
 
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Jugador.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Jugador.hpp
 SFML/Graphics.hpp
 -
 iostream
@@ -36,13 +38,13 @@ iostream
 vector
 -
 Ficha.hpp
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Ficha.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Ficha.hpp
 Recorrido.hpp
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Recorrido.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Recorrido.hpp
 
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Recorrido.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Recorrido.hpp
 
-C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v4-F/Tablero.hpp
+C:/Users/Usuario/Downloads/POOversiones/ProyectoPoo2v5-F/Tablero.hpp
 SFML/Graphics.hpp
 -
 

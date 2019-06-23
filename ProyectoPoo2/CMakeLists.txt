@@ -13,4 +13,4 @@ add_executable(ProyectoPoo2
         Juego.cpp
         Ludo.cpp main.cpp)
 
-target_link_libraries (ProyectoPoo2 sfml-graphics sfml-window sfml-system)
+target_link_libraries (ProyectoPoo2 sfml-graphics sfml-window sfml-system sfml-audio)
