@@ -9,10 +9,12 @@ class Juego {
 private:
     int turno;
     int N_Jugadores;
+    int N_terminaron=0;
     Tablero *tablero;
     Dado *dado;
     Jugador **jugadores;
     sf::Music musica;
+    Jugador** terminaron;
 public:
 
     Juego(int N_Jugadores);
@@ -45,7 +47,7 @@ public:
 
     Jugador **getJugadores() const;
 
-
+    int getTurno() const;
 
     ~Juego();
 	

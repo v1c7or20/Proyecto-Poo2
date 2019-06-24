@@ -3,7 +3,8 @@
 
 
 Juego::Juego(int N_Jugadores) {
-    turno=1;
+    turno=0;
+    terminaron= new Jugador*[N_Jugadores];
     musica.openFromFile("Musica/ludo.wav");
     musica.setLoop(true);
     musica.play();
@@ -42,12 +43,15 @@ void Juego::nexturn() {
 void Juego::gamephase(int id){
     int actual = turno%N_Jugadores;
     Ficha *seleccionada = jugadores[actual]->getFichas()[id];
-    if(comprobar_enjuego(seleccionada))
-        mover_ficha(jugadores[actual],id);
-    if(comprobar_casa(seleccionada) and jugadores[actual]->getLast()==6){
-        seleccionada->getFichasp()->setPosition(jugadores[actual]->getRecorrido()->getRecorrido()[0][0],
+    if(jugadores[actual]->isCanplay()){
+        if(comprobar_enjuego(seleccionada))
+            mover_ficha(jugadores[actual],id);
+        if(comprobar_casa(seleccionada) and jugadores[actual]->getLast()==6){
+            seleccionada->setTabPos(0);
+            seleccionada->getFichasp()->setPosition(jugadores[actual]->getRecorrido()->getRecorrido()[0][0],
                                                 jugadores[actual]->getRecorrido()->getRecorrido()[0][1]);
-        seleccionada->setEstado('J');
+            seleccionada->setEstado('J');
+        }
     }
 }
 
@@ -72,7 +76,16 @@ void Juego::middlephase(int id){
 }
 
 void Juego::endphase(){
-
+    int actual = turno%N_Jugadores,
+    contador = 0;
+    for (int i = 0; i < 4; i++) {
+        if(jugadores[actual]->getFichas()[i]->getEstado() == 'F')
+            contador++;
+    }
+    if(contador == 4 and N_terminaron >4){
+        terminaron[N_terminaron] = jugadores[actual];
+        N_terminaron++;
+    }
 }
 
 bool Juego::comprobar_enjuego(Ficha *ficha){
@@ -105,6 +118,7 @@ void Juego::comprobar_repeticiones(Jugador *jugador) {
         jugador->setRepeticion(jugador->getRepeticion()+1);
         if(jugador->getRepeticion()==3){
             jugador->setCanplay(false);
+            jugador->setLast(0);
         }
     }
     if(jugador->getLast() != 6){
@@ -142,4 +156,8 @@ Dado *Juego::getDado() const {
 
 Jugador **Juego::getJugadores() const {
     return jugadores;
+}
+
+int Juego::getTurno() const {
+    return turno;
 }
