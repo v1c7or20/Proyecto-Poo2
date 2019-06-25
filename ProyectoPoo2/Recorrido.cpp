@@ -86,8 +86,8 @@ Recorrido::Recorrido(char color) {
         }
     }}
     if(color == 'Y'){
-    x=410;
-    y=35;
+    x=413.5;
+    y=38.5;
     recorrido[0][0]=x;
     recorrido[0][1]=y;
     for(int i=1; i<62;i++){
@@ -159,8 +159,8 @@ Recorrido::Recorrido(char color) {
         }
     }}
     if (color == 'R'){
-    x=330;
-    y=515;
+    x=332;
+    y=514.5;
     recorrido[0][0]=x;
     recorrido[0][1]=y;
     for(int i=1; i<62;i++){
@@ -232,8 +232,8 @@ Recorrido::Recorrido(char color) {
         }
     }}
     if(color == 'G'){
-    x=610;
-    y=315;
+    x=614.5;
+    y=318;
     recorrido[0][0]=x;
     recorrido[0][1]=y;
     for(int i=1; i<62;i++){
