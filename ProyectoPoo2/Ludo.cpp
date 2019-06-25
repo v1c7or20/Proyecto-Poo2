@@ -24,14 +24,19 @@ void Ludo::draw() {
     ventana_juego->display();
 }
 
-int Ludo::seleccionar(){
+int Ludo::seleccionar(int x, int y){
     int actual = juego->getTurno()%N_Jugadores;
     Jugador *jugador= juego->getJugadores()[actual];
-    for (int i = 0; i < 4; i++) {
-        if(getCoorde(jugador->getFichas()[i]->getFichasp())){
-            return i;
-        }
-    }
+    if(jugador->getFichas()[0]->getFichasp()->getGlobalBounds().contains(x,y))
+        return 0;
+    if(jugador->getFichas()[1]->getFichasp()->getGlobalBounds().contains(x,y))
+        return 1;
+    if(jugador->getFichas()[2]->getFichasp()->getGlobalBounds().contains(x,y))
+        return 2;
+    if(jugador->getFichas()[3]->getFichasp()->getGlobalBounds().contains(x,y))
+        return 3;
+    else
+        return 0;
 }
 
 Ludo::Ludo(int N_Jugadores) {
@@ -53,17 +58,11 @@ void Ludo::inicio() {
                 draw();
                 id=-1;
                 while(id == -1){
-                    int xfi,yfi,xmo,ymo;
-                    if(Mouse::isButtonPressed(Mouse::Left)){
-                        xmo = Mouse::getPosition().x;
-                        ymo = Mouse::getPosition().y;
-                        for (int i = 0; i <4 ; i++) {
-                            xfi = juego->getJugadores()[juego->getTurno()%N_Jugadores]->getFichas()[i]->getFichasp()->getPosition().x;
-                            yfi = juego->getJugadores()[juego->getTurno()%N_Jugadores]->getFichas()[i]->getFichasp()->getPosition().y;
-                            if(xfi<xmo+25 and xfi>xmo-25 and yfi<ymo+25 and yfi>ymo-25){
-                                id=i;
-                            }
-                        }
+                    int xmo=0,ymo=0;
+                    if(sf::Mouse::isButtonPressed(Mouse::Left)){
+                        xmo = Mouse::getPosition(*ventana_juego).x;
+                        ymo = Mouse::getPosition(*ventana_juego).y;
+                        id = seleccionar(xmo,ymo);
                     }
                     if(Keyboard::isKeyPressed(Keyboard::Num1) or Keyboard::isKeyPressed(Keyboard::Numpad1))
                         id=0;

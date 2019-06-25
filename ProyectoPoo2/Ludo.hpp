@@ -14,7 +14,7 @@ public:
 	void inicio();
 	void draw();
 	bool getCoorde(const sf::Sprite* click);
-	int seleccionar();
+	int seleccionar(int , int);
 };
 
 #endif
