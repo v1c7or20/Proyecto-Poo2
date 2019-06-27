@@ -4,6 +4,7 @@
 #include "Dado.hpp"
 #include "Jugador.hpp"
 #include "Tablero.hpp"
+#include <SFML/Graphics.hpp>
 
 class Juego {
 private:
@@ -15,6 +16,9 @@ private:
     Jugador **jugadores;
     sf::Music musica;
     Jugador** terminaron;
+
+    sf::Texture ** img_jugador;
+    sf::Sprite * sp_jugador;
 public:
 
     Juego(int N_Jugadores);
@@ -48,6 +52,8 @@ public:
     Jugador **getJugadores() const;
 
     int getTurno() const;
+
+    sf::Sprite *getImgturno() const ;
 
     ~Juego();
 	

@@ -19,7 +19,9 @@ private:
     bool canplay=true;
     int repeticion = 0;
 
+
 public:
+
 
 	Jugador(char color);
 

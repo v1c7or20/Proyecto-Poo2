@@ -15,6 +15,7 @@ void Ludo::draw() {
     ventana_juego->clear();
     ventana_juego->draw(*(juego->getTablero()->getTablero()));
     ventana_juego->draw(*(juego->getDado()->getDados()));
+    ventana_juego->draw(*(juego->getImgturno()));
     for (int i = 0; i <N_Jugadores ; i++) {
         ventana_juego->draw(*(juego->getJugadores()[i]->getFichas()[0]->getFichasp()));
         ventana_juego->draw(*(juego->getJugadores()[i]->getFichas()[1]->getFichasp()));

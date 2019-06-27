@@ -2,7 +2,23 @@
 #include <SFML/Audio.hpp>
 
 
-Juego::Juego(int N_Jugadores) {
+Juego::Juego(int N_Jugadores){
+    //Imagenes de los turnos de los jugadores
+    img_jugador = new sf::Texture*[4];
+    for(int i = 0; i<6 ; i++){
+        img_jugador[i] = new sf::Texture;
+    }
+
+    img_jugador[0]->loadFromFile("Texturas/azul.png");
+    img_jugador[1]->loadFromFile("Texturas/amarillo.png");
+    img_jugador[2]->loadFromFile("Texturas/verde.png");
+    img_jugador[3]->loadFromFile("Texturas/rojo.png");
+
+    sp_jugador = new sf::Sprite;
+    sp_jugador->setTexture(*img_jugador[0]);
+    sp_jugador->setPosition(715, 165);
+
+    //Turnos
     turno=0;
     terminaron= new Jugador*[N_Jugadores];
     musica.openFromFile("Musica/ludo.wav");
@@ -36,6 +52,7 @@ Juego::Juego(int N_Jugadores) {
 void Juego::nexturn() {
     int actual = turno%N_Jugadores;
     jugadores[actual]->setLast(dado->lanzar());
+    sp_jugador->setTexture(*img_jugador[actual]);
     comprobar_repeticiones(jugadores[actual]);
 
 }
@@ -60,7 +77,7 @@ void Juego::middlephase(int id){
     comparado = actual,
     x = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().x,
     y = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().y;
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < N_Jugadores-1; i++) {
         comparado++;
         for (int j = 0; j <4 ; j++) {
             if(x== jugadores[comparado%4]->getFichas()[j]->getFichasp()->getPosition().x
@@ -161,3 +178,7 @@ Jugador **Juego::getJugadores() const {
 int Juego::getTurno() const {
     return turno;
 }
+
+sf::Sprite *Juego::getImgturno() const {
+    return sp_jugador;
+};

@@ -1,6 +1,8 @@
 #include "Jugador.hpp"
 
 Jugador::Jugador(char color) {
+
+    //Recorrido
     recorrido=new Recorrido(color);
     this->color = color;
     fichas = new Ficha*[4];
@@ -9,6 +11,7 @@ Jugador::Jugador(char color) {
     }
     pos_iniciales=new Vector2<float >*[4];
     if (color == 'B'){
+
         pos_iniciales[0] = new Vector2<float >(140,45);
         pos_iniciales[1] = new Vector2<float >(240,45);
         pos_iniciales[2] = new Vector2<float >(240,145);
