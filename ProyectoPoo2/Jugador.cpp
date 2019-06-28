@@ -9,27 +9,33 @@ Jugador::Jugador(char color) {
     for (int i = 0; i < 4; i++) {
         fichas[i]=new Ficha(color, i);
     }
+    //Imagen Turno del jugador
+    img_jugador = new sf::Texture();
+    //Posiciones
     pos_iniciales=new Vector2<float >*[4];
     if (color == 'B'){
-
+        img_jugador->loadFromFile("Texturas/azul.png");
         pos_iniciales[0] = new Vector2<float >(140,45);
         pos_iniciales[1] = new Vector2<float >(240,45);
         pos_iniciales[2] = new Vector2<float >(240,145);
         pos_iniciales[3] = new Vector2<float >(140,145);
     }
     if (color == 'R'){
+        img_jugador->loadFromFile("Texturas/rojo.png");
         pos_iniciales[0] = new Vector2<float >(140,505);
         pos_iniciales[1] = new Vector2<float >(240,505);
         pos_iniciales[2] = new Vector2<float >(240,405);
         pos_iniciales[3] = new Vector2<float >(140,405);
     }
     if (color == 'G'){
+        img_jugador->loadFromFile("Texturas/verde.png");
         pos_iniciales[0] = new Vector2<float >(500,505);
         pos_iniciales[1] = new Vector2<float >(600,505);
         pos_iniciales[2] = new Vector2<float >(600,405);
         pos_iniciales[3] = new Vector2<float >(500,505);
     }
     if (color == 'Y'){
+        img_jugador->loadFromFile("Texturas/amarillo.png");
         pos_iniciales[0] = new Vector2<float >(500,45);
         pos_iniciales[1] = new Vector2<float >(600,45);
         pos_iniciales[2] = new Vector2<float >(600,145);
@@ -75,4 +81,8 @@ int Jugador::getRepeticion() const {
 
 bool Jugador::isCanplay() const {
     return canplay;
+}
+
+Texture *Jugador::getImgJugador() const {
+    return img_jugador;
 }

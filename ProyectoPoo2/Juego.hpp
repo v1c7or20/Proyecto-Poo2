@@ -16,8 +16,6 @@ private:
     Jugador **jugadores;
     sf::Music musica;
     Jugador** terminaron;
-
-    sf::Texture ** img_jugador;
     sf::Sprite * sp_jugador;
 public:
 

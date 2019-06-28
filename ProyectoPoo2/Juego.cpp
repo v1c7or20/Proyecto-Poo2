@@ -3,19 +3,11 @@
 
 
 Juego::Juego(int N_Jugadores){
-    //Imagenes de los turnos de los jugadores
-    img_jugador = new sf::Texture*[4];
-    for(int i = 0; i<6 ; i++){
-        img_jugador[i] = new sf::Texture;
-    }
 
-    img_jugador[0]->loadFromFile("Texturas/azul.png");
-    img_jugador[1]->loadFromFile("Texturas/amarillo.png");
-    img_jugador[2]->loadFromFile("Texturas/verde.png");
-    img_jugador[3]->loadFromFile("Texturas/rojo.png");
+
+
 
     sp_jugador = new sf::Sprite;
-    sp_jugador->setTexture(*img_jugador[0]);
     sp_jugador->setPosition(715, 165);
 
     //Turnos
@@ -47,12 +39,13 @@ Juego::Juego(int N_Jugadores){
         default:
             break;
     }
+    sp_jugador->setTexture(*jugadores[0]->getImgJugador());
+
 }
 
 void Juego::nexturn() {
     int actual = turno%N_Jugadores;
     jugadores[actual]->setLast(dado->lanzar());
-    sp_jugador->setTexture(*img_jugador[actual]);
     comprobar_repeticiones(jugadores[actual]);
 
 }
@@ -103,6 +96,13 @@ void Juego::endphase(){
         terminaron[N_terminaron] = jugadores[actual];
         N_terminaron++;
     }
+    int act_ima = (actual+1)%N_Jugadores;
+    if(jugadores[actual]->getLast() == 6){
+        sp_jugador->setTexture(*jugadores[actual]->getImgJugador());
+    }
+    else
+        sp_jugador->setTexture(*jugadores[act_ima]->getImgJugador());
+
 }
 
 bool Juego::comprobar_enjuego(Ficha *ficha){

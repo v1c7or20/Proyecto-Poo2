@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include "Ficha.hpp"
+#include <SFML/Graphics.hpp>
 #include "Recorrido.hpp"
 
 using namespace std;
@@ -18,7 +19,7 @@ private:
     int last=0;
     bool canplay=true;
     int repeticion = 0;
-
+    sf::Texture * img_jugador;
 
 public:
 
@@ -44,6 +45,8 @@ public:
     bool isCanplay() const;
 
     void setRepeticion(int repeticion);
+
+    Texture *getImgJugador() const;
 };
 
 #endif
