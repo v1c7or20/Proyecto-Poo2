@@ -92,7 +92,7 @@ void Juego::endphase(){
         if(jugadores[actual]->getFichas()[i]->getEstado() == 'F')
             contador++;
     }
-    if(contador == 4 and N_terminaron >4){
+    if(contador == 4 and N_terminaron <N_Jugadores){
         terminaron[N_terminaron] = jugadores[actual];
         N_terminaron++;
     }
@@ -150,6 +150,9 @@ void Juego::mover_ficha(Jugador *jugador,int id_ficha){
     if (ficha_mover->getTabPos()+last<60) {
         ficha_mover->setTabPos(ficha_mover->getTabPos() + last);
         int posactual = ficha_mover->getTabPos();
+        if(posactual == 5 or posactual == 19 or posactual == 33 or posactual ==  47 )
+            posactual++;
+
         ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[posactual][0],
                                                jugador->getRecorrido()->getRecorrido()[posactual][1]);
     }
