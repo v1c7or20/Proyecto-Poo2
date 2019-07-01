@@ -9,16 +9,16 @@ Ficha::Ficha(char color, int id) {
         ficha->setTexture(*ficha_img);
         switch (id){
             case 0:
-                ficha->setPosition(140,505);
+                ficha->setPosition(150,405);
                 break;
             case 1:
-                ficha->setPosition(240,505);
+                ficha->setPosition(260,405);
                 break;
             case 2:
-                ficha->setPosition(240,405);
+                ficha->setPosition(260,515);
                 break;
             case 3:
-                ficha->setPosition(140,405);
+                ficha->setPosition(150,515);
                 break;
         }
     }
@@ -27,16 +27,16 @@ Ficha::Ficha(char color, int id) {
         ficha->setTexture(*ficha_img);
         switch (id){
             case 0:
-                ficha->setPosition(140,45);
+                ficha->setPosition(150,55);
                 break;
             case 1:
-                ficha->setPosition(240,45);
+                ficha->setPosition(260,55);
                 break;
             case 2:
-                ficha->setPosition(240,145);
+                ficha->setPosition(260,160);
                 break;
             case 3:
-                ficha->setPosition(140,145);
+                ficha->setPosition(150,160);
                 break;
         }
     }
@@ -45,16 +45,16 @@ Ficha::Ficha(char color, int id) {
         ficha->setTexture(*ficha_img);
         switch (id){
             case 0:
-                ficha->setPosition(500,505);
+                ficha->setPosition(510,520);
                 break;
             case 1:
-                ficha->setPosition(600,505);
+                ficha->setPosition(620,520);
                 break;
             case 2:
-                ficha->setPosition(600,405);
+                ficha->setPosition(620,410);
                 break;
             case 3:
-                ficha->setPosition(500,405);
+                ficha->setPosition(510,410);
                 break;
         }
     }
@@ -63,16 +63,16 @@ Ficha::Ficha(char color, int id) {
         ficha->setTexture(*ficha_img);
         switch (id){
             case 0:
-                ficha->setPosition(500,45);
+                ficha->setPosition(515,55);
                 break;
             case 1:
-                ficha->setPosition(600,45);
+                ficha->setPosition(620,55);
                 break;
             case 2:
-                ficha->setPosition(600,145);
+                ficha->setPosition(620,155);
                 break;
             case 3:
-                ficha->setPosition(500,145);
+                ficha->setPosition(510,155);
                 break;
         }
     }

@@ -2,7 +2,7 @@
 
 Tablero::Tablero() {
     tablero_img = new sf::Texture;
-    tablero_img->loadFromFile("Texturas/tablero.jpg");
+    tablero_img->loadFromFile("Texturas/tablero.png");
     tablero = new sf::Sprite(*tablero_img);
 }
 
