@@ -163,11 +163,13 @@ void Juego::mover_ficha(Jugador *jugador,int id_ficha){
     }
 
     else{
-        ficha_mover->setTabPos(60);
-        ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[60][0],
-                                               jugador->getRecorrido()->getRecorrido()[60][1]);
-        ficha_mover->setEstado('F');
-
+        if(ficha_mover->getTabPos()+last == 60){
+            ficha_mover->setTabPos(60);
+            ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[60][0],
+                                                   jugador->getRecorrido()->getRecorrido()[60][1]);
+            ficha_mover->setEstado('F');
+        }
+        
     }
 
 }
