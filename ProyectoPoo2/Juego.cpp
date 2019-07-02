@@ -43,6 +43,15 @@ Juego::Juego(int N_Jugadores){
 
 }
 
+void Juego::comprobar_segura(Ficha *ficha){
+    if (ficha->getTabPos()==9 or ficha->getTabPos()==23
+        or ficha->getTabPos()==37 or ficha->getTabPos()==51)
+        ficha->setEstado('S');
+    if(ficha->getTabPos() == -1)
+        ficha->setEstado('C');
+    else ficha->setEstado('J');
+}
+
 void Juego::nexturn() {
     int actual = turno%N_Jugadores;
     jugadores[actual]->setLast(dado->lanzar());
@@ -63,6 +72,7 @@ void Juego::gamephase(int id){
             seleccionada->setEstado('J');
         }
     }
+    comprobar_segura(jugadores[actual]->getFichas()[id]);
 }
 
 void Juego::middlephase(int id){
@@ -115,11 +125,7 @@ bool Juego::comprobar_casa(Ficha *ficha){
         return true;
     else return false;
 }
-bool Juego::comprobar_segura(Ficha *ficha){
-    if (ficha->getEstado()=='S')
-        return true;
-    else return false;
-}
+
 bool Juego::comprobar_final(Ficha *ficha){
     if (ficha->getEstado()=='F')
         return true;
@@ -150,12 +156,10 @@ void Juego::mover_ficha(Jugador *jugador,int id_ficha){
     if (ficha_mover->getTabPos()+last<60) {
         ficha_mover->setTabPos(ficha_mover->getTabPos() + last);
         int posactual = ficha_mover->getTabPos();
-        if(posactual == 5 or posactual == 19 or posactual == 33 or posactual ==  47 )
-            posactual++;
-
         ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[posactual][0],
                                                jugador->getRecorrido()->getRecorrido()[posactual][1]);
     }
+
     else{
         ficha_mover->setTabPos(60);
         ficha_mover->getFichasp()->setPosition(jugador->getRecorrido()->getRecorrido()[60][0],
@@ -165,6 +169,7 @@ void Juego::mover_ficha(Jugador *jugador,int id_ficha){
     }
 
 }
+
 
 Tablero *Juego::getTablero() const {
     return tablero;
@@ -184,4 +189,5 @@ int Juego::getTurno() const {
 
 sf::Sprite *Juego::getImgturno() const {
     return sp_jugador;
-};
+}
+

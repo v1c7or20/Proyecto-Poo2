@@ -41,7 +41,7 @@ public:
 
     bool comprobar_final(Ficha *ficha);
 
-    bool comprobar_segura(Ficha *ficha);
+    void comprobar_segura(Ficha *ficha);
 
     Tablero *getTablero() const;
 

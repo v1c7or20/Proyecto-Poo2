@@ -6,9 +6,49 @@
 
 #IncludeRegexTransform: 
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Recorrido.cpp
-Recorrido.hpp
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Recorrido.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Dado.hpp
+SFML/Graphics.hpp
+-
 
-D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Recorrido.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Ficha.hpp
+SFML/Graphics.hpp
+-
+SFML/Audio.hpp
+-
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Juego.cpp
+Juego.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Juego.hpp
+SFML/Audio.hpp
+-
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Juego.hpp
+Dado.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Dado.hpp
+Jugador.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Jugador.hpp
+Tablero.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Tablero.hpp
+SFML/Graphics.hpp
+-
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Jugador.hpp
+SFML/Graphics.hpp
+-
+iostream
+-
+vector
+-
+Ficha.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Ficha.hpp
+SFML/Graphics.hpp
+-
+Recorrido.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Recorrido.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Recorrido.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Tablero.hpp
+SFML/Graphics.hpp
+-
 

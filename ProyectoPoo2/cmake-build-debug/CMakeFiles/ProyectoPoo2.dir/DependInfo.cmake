@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Dado.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Dado.cpp.obj"
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Ficha.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.obj"
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Juego.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj"
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Jugador.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj"
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Ludo.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj"
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Recorrido.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj"
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/Tablero.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj"
-  "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/main.cpp" "D:/MSI/Documentos/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/main.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Dado.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Dado.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Ficha.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Ficha.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Juego.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Juego.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Jugador.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Jugador.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Ludo.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Ludo.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Recorrido.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Recorrido.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/Tablero.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/Tablero.cpp.obj"
+  "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/main.cpp" "C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/ProyectoPoo2/cmake-build-debug/CMakeFiles/ProyectoPoo2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
