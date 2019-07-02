@@ -47,9 +47,11 @@ void Juego::comprobar_segura(Ficha *ficha){
     if (ficha->getTabPos()==9 or ficha->getTabPos()==23
         or ficha->getTabPos()==37 or ficha->getTabPos()==51)
         ficha->setEstado('S');
-    if(ficha->getTabPos() == -1)
-        ficha->setEstado('C');
-    else ficha->setEstado('J');
+    else
+        if(ficha->getTabPos() == -1)
+            ficha->setEstado('C');
+        else
+            ficha->setEstado('J');
 }
 
 void Juego::nexturn() {
