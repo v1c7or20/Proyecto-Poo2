@@ -15,31 +15,31 @@ Jugador::Jugador(char color) {
     pos_iniciales=new Vector2<float >*[4];
     if (color == 'B'){
         img_jugador->loadFromFile("Texturas/azul.png");
-        pos_iniciales[0] = new Vector2<float >(150,55);
-        pos_iniciales[1] = new Vector2<float >(260,55);
-        pos_iniciales[2] = new Vector2<float >(260,160);
-        pos_iniciales[3] = new Vector2<float >(150,160);
+        pos_iniciales[0] = new Vector2<float >(145,45);
+        pos_iniciales[1] = new Vector2<float >(255,45);
+        pos_iniciales[2] = new Vector2<float >(255,150);
+        pos_iniciales[3] = new Vector2<float >(145,150);
     }
     if (color == 'R'){
         img_jugador->loadFromFile("Texturas/rojo.png");
-        pos_iniciales[0] = new Vector2<float >(150,405);
-        pos_iniciales[1] = new Vector2<float >(260,405);
-        pos_iniciales[2] = new Vector2<float >(260,515);
-        pos_iniciales[3] = new Vector2<float >(150,515);
+        pos_iniciales[0] = new Vector2<float >(145,400);
+        pos_iniciales[1] = new Vector2<float >(255,400);
+        pos_iniciales[2] = new Vector2<float >(255,510);
+        pos_iniciales[3] = new Vector2<float >(145,510);
     }
     if (color == 'G'){
         img_jugador->loadFromFile("Texturas/verde.png");
-        pos_iniciales[0] = new Vector2<float >(510,520);
-        pos_iniciales[1] = new Vector2<float >(620,520);
-        pos_iniciales[2] = new Vector2<float >(620,410);
-        pos_iniciales[3] = new Vector2<float >(510,410);
+        pos_iniciales[0] = new Vector2<float >(505,510);
+        pos_iniciales[1] = new Vector2<float >(615,510);
+        pos_iniciales[2] = new Vector2<float >(615,400);
+        pos_iniciales[3] = new Vector2<float >(505,400);
     }
     if (color == 'Y'){
         img_jugador->loadFromFile("Texturas/amarillo.png");
-        pos_iniciales[0] = new Vector2<float >(515,55);
-        pos_iniciales[1] = new Vector2<float >(620,55);
-        pos_iniciales[2] = new Vector2<float >(620,155);
-        pos_iniciales[3] = new Vector2<float >(515,155);
+        pos_iniciales[0] = new Vector2<float >(505,45);
+        pos_iniciales[1] = new Vector2<float >(615,45);
+        pos_iniciales[2] = new Vector2<float >(615,150);
+        pos_iniciales[3] = new Vector2<float >(505,150);
     }
 }
 
