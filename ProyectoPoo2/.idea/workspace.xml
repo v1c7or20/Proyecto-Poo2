@@ -36,9 +36,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44b9bbec-fcfa-4ac8-9ed3-9bf16e8b9345" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jugador.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Jugador.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="44b9bbec-fcfa-4ac8-9ed3-9bf16e8b9345" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +121,23 @@
       <find>if</find>
       <find>dra</find>
       <find>comprobar_en</find>
+      <find>150</find>
+      <find>55</find>
+      <find>160</find>
+      <find>260</find>
+      <find>405</find>
+      <find>515</find>
+      <find>510</find>
     </findStrings>
+    <replaceStrings>
+      <replace>145</replace>
+      <replace>45</replace>
+      <replace>150</replace>
+      <replace>255</replace>
+      <replace>400</replace>
+      <replace>510</replace>
+      <replace>505</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -154,7 +168,7 @@
     <option name="directoryName" value="EXTtTxCP" />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="714" />
     <option name="height" value="735" />
@@ -237,15 +251,15 @@
       <workItem from="1561926705872" duration="515000" />
       <workItem from="1561942129228" duration="4388000" />
       <workItem from="1562024256723" duration="6177000" />
-      <workItem from="1562048370142" duration="1689000" />
+      <workItem from="1562048370142" duration="1869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96128000" />
+    <option name="totallyTimeSpent" value="96308000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -258,7 +272,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.31950846" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.31950846" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3385269" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
