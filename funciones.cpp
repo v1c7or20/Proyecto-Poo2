@@ -8,10 +8,12 @@
 using namespace sf;
 
 int Numero_jugadores(){
+    //Musica Inicial
     sf::Music musica;
     musica.openFromFile("Musica/menu.wav");
     musica.setLoop(true);
     musica.play();
+    //Pantalla de Inicio
     int N_jugadores=0;
     sf::RenderWindow *ventana_juego;
     ventana_juego = new RenderWindow(VideoMode(800, 600),"LUDO");
