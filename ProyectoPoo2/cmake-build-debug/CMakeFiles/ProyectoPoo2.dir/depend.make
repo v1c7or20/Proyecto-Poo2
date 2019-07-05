@@ -42,5 +42,6 @@ CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Jugador.hpp
 CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Ludo.hpp
 CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Recorrido.hpp
 CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../Tablero.hpp
+CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../funciones.cpp
 CMakeFiles/ProyectoPoo2.dir/main.cpp.obj: ../main.cpp
 
