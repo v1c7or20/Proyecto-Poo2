@@ -48,10 +48,10 @@ void Juego::comprobar_segura(Ficha *ficha){
         or ficha->getTabPos()==37 or ficha->getTabPos()==51)
         ficha->setEstado('S');
     else
-        if(ficha->getTabPos() == -1)
-            ficha->setEstado('C');
-        else
-            ficha->setEstado('J');
+    if(ficha->getTabPos() == -1)
+        ficha->setEstado('C');
+    else
+        ficha->setEstado('J');
 }
 
 void Juego::nexturn() {
@@ -67,10 +67,10 @@ void Juego::gamephase(int id){
     if(jugadores[actual]->isCanplay()){
         if(comprobar_enjuego(seleccionada))
             mover_ficha(jugadores[actual],id);
-        if(comprobar_casa(seleccionada) and jugadores[actual]->getLast()==6){
+        if(comprobar_casa(seleccionada) and jugadores[actual]->getLast()==6 and seleccionada->getEstado() != 'F'){
             seleccionada->setTabPos(0);
             seleccionada->getFichasp()->setPosition(jugadores[actual]->getRecorrido()->getRecorrido()[0][0],
-                                                jugadores[actual]->getRecorrido()->getRecorrido()[0][1]);
+                                                    jugadores[actual]->getRecorrido()->getRecorrido()[0][1]);
             seleccionada->setEstado('J');
         }
     }
@@ -79,18 +79,18 @@ void Juego::gamephase(int id){
 
 void Juego::middlephase(int id){
     int actual = turno%N_Jugadores,
-    comparado = actual,
-    x = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().x,
-    y = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().y;
+            comparado = actual,
+            x = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().x,
+            y = jugadores[actual]->getFichas()[id]->getFichasp()->getPosition().y;
     for (int i = 0; i < N_Jugadores-1; i++) {
         comparado++;
         for (int j = 0; j <4 ; j++) {
-            if(x== jugadores[comparado%4]->getFichas()[j]->getFichasp()->getPosition().x
-            and y == jugadores[comparado%4]->getFichas()[j]->getFichasp()->getPosition().y){
-                if(jugadores[comparado%4]->getFichas()[j]->getEstado() == 'J'){
-                    jugadores[comparado%4]->getFichas()[j]->setTabPos(-1);
-                    jugadores[comparado%4]->getFichas()[j]->setEstado('C');
-                    jugadores[comparado%4]->getFichas()[j]->getFichasp()->setPosition(jugadores[comparado%4]->getPosIniciales()[j][0]);
+            if(x== jugadores[comparado%N_Jugadores]->getFichas()[j]->getFichasp()->getPosition().x
+               and y == jugadores[comparado%N_Jugadores]->getFichas()[j]->getFichasp()->getPosition().y){
+                if(jugadores[comparado%N_Jugadores]->getFichas()[j]->getEstado() == 'J'){
+                    jugadores[comparado%N_Jugadores]->getFichas()[j]->setTabPos(-1);
+                    jugadores[comparado%N_Jugadores]->getFichas()[j]->setEstado('C');
+                    jugadores[comparado%N_Jugadores]->getFichas()[j]->getFichasp()->setPosition(jugadores[comparado%N_Jugadores]->getPosIniciales()[j][0]);
                 }
             }
         }
@@ -99,7 +99,7 @@ void Juego::middlephase(int id){
 
 void Juego::endphase(){
     int actual = turno%N_Jugadores,
-    contador = 0;
+            contador = 0;
     for (int i = 0; i < 4; i++) {
         if(jugadores[actual]->getFichas()[i]->getEstado() == 'F')
             contador++;
@@ -169,7 +169,9 @@ void Juego::mover_ficha(Jugador *jugador,int id_ficha){
                                                    jugador->getRecorrido()->getRecorrido()[60][1]);
             ficha_mover->setEstado('F');
         }
-        
+        else
+            ficha_mover->setEstado('J');
+
     }
 
 }

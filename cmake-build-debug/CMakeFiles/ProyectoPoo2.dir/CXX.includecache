@@ -6,27 +6,45 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Dado.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Dado.cpp
+Dado.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Dado.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Dado.hpp
 SFML/Graphics.hpp
 -
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Ficha.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ficha.cpp
+Ficha.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ficha.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ficha.hpp
 SFML/Graphics.hpp
 -
 SFML/Audio.hpp
 -
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Juego.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Juego.cpp
+Juego.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Juego.hpp
+SFML/Audio.hpp
+-
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Juego.hpp
 Dado.hpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Dado.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Dado.hpp
 Jugador.hpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Jugador.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Jugador.hpp
 Tablero.hpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Tablero.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Tablero.hpp
 SFML/Graphics.hpp
 -
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Jugador.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Jugador.cpp
+Jugador.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Jugador.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Jugador.hpp
 SFML/Graphics.hpp
 -
 iostream
@@ -34,35 +52,53 @@ iostream
 vector
 -
 Ficha.hpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Ficha.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ficha.hpp
 SFML/Graphics.hpp
 -
 Recorrido.hpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Recorrido.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Recorrido.hpp
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Ludo.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ludo.cpp
+Ludo.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ludo.hpp
+unistd.h
+-
+conio.h
+-
+windows.h
+-
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ludo.hpp
 SFML/Graphics.hpp
 -
 Juego.hpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Juego.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Juego.hpp
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Recorrido.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Recorrido.cpp
+Recorrido.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Recorrido.hpp
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Tablero.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Recorrido.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Tablero.cpp
+Tablero.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Tablero.hpp
+
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Tablero.hpp
 SFML/Graphics.hpp
 -
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/funciones.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/funciones.cpp
 SFML/Graphics.hpp
 -
 SFML/Audio.hpp
 -
 
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/main.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/main.cpp
 iostream
 -
 funciones.cpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/funciones.cpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/funciones.cpp
 Ludo.hpp
-C:/Users/Renzo/Documents/GitHub/Proyecto-Poo2/Ludo.hpp
+C:/Users/Usuario/Documents/GitHub/Proyecto-Poo2/Ludo.hpp
 
