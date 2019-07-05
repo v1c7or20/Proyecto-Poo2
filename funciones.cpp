@@ -3,10 +3,15 @@
 //
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 
 using namespace sf;
 
 int Numero_jugadores(){
+    sf::Music musica;
+    musica.openFromFile("Musica/menu.wav");
+    musica.setLoop(true);
+    musica.play();
     int N_jugadores=0;
     sf::RenderWindow *ventana_juego;
     ventana_juego = new RenderWindow(VideoMode(800, 600),"LUDO");
@@ -20,11 +25,11 @@ int Numero_jugadores(){
     auto *button4_img= new Texture();
     button4_img->loadFromFile("Texturas/j4.png");
     auto *button2 = new Sprite(*button2_img);
-    button2->setPosition(200,400);
+    button2->setPosition(217,329);
     auto *button3 = new Sprite(*button3_img);
-    button3->setPosition(400,400);
+    button3->setPosition(367,329);
     auto *button4 = new Sprite(*button4_img);
-    button4->setPosition(600,400);
+    button4->setPosition(517,329);
     auto *inicio = new Sprite(*inicio_img);
     while (ventana_juego->isOpen()){
         Event event;
