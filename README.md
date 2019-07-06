@@ -31,6 +31,8 @@ terminar el turno).
  * Si un jugador obtiene tres veces
    seguidas seis se le castiga y pierde su turno.
 ###Integrantes:
-    -Choquehuanca  Alberto, Said (201810286)
-    -Peña Andia, Victor Angelo (201810212)
-    -Tenazoa Ramirez, Renzo Martin (201810251)
+
+ * Choquehuanca  Alberto, Said (201810286)
+ * Peña Andia, Victor Angelo (201810212)
+ * Tenazoa Ramirez, Renzo Martin (201810251)
+
