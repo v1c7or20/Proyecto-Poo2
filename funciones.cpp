@@ -64,3 +64,28 @@ int Numero_jugadores(){
     }
     return N_jugadores;
 }
+
+void gameover(){
+    //Musica Inicial
+    sf::Music musica;
+    musica.openFromFile("Musica/menu.wav");
+    musica.setLoop(true);
+    musica.play();
+    //Pantalla de Inicio
+    sf::RenderWindow *ventana_juego;
+    ventana_juego = new RenderWindow(VideoMode(800, 600),"LUDO");
+    ventana_juego->setFramerateLimit(60);
+    auto *final_img =new sf::Texture();
+    final_img->loadFromFile("Texturas/gameover.png");
+    auto *final = new Sprite();
+    final->setTexture(*final_img);
+    while (ventana_juego->isOpen()){
+        Event event;
+        ventana_juego->draw(*final);
+        ventana_juego->display();
+        while (ventana_juego->pollEvent(event)) {
+            if (event.type == Event::Closed)
+                ventana_juego->close();
+        }
+    }
+}

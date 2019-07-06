@@ -8,5 +8,6 @@ int main(){
     int N_jugadores = Numero_jugadores();
     Ludo* ludo=new Ludo(N_jugadores);
     ludo->inicio();
+    gameover();
     return 0;
 }
